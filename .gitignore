@@ -1,0 +1,14 @@
+# Arquivos que o site não usa (ficam só no computador)
+assets/fonts/
+assets/images/logo-full.png
+assets/images/logo-wordmark-cropped.png
+assets/images/logo/wemapit-horizontal-carvao.svg
+assets/images/logo/wemapit-sigla-wmi-laranja.svg
+assets/images/logo/wemapit-horizontal-laranja.png
+LEIA-ME.txt
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+*.zip
