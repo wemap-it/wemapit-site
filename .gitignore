@@ -7,6 +7,9 @@ assets/images/logo/wemapit-sigla-wmi-laranja.svg
 assets/images/logo/wemapit-horizontal-laranja.png
 LEIA-ME.txt
 
+# Configuração antiga da Hostinger (a Vercel não usa)
+.htaccess
+
 # Sistema
 .DS_Store
 Thumbs.db

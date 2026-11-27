@@ -27,7 +27,6 @@ portfolio/        portfólio (wemapit.com.br/portfolio): página única, CSS e J
                   fotos do color grade em portfolio/assets/
 assets/images/    foto do hero, imagem de compartilhamento, logos e ícones
 vercel.json       configuração da Vercel (endereços sempre com barra no fim, ex.: /portfolio/)
-.htaccess         configuração antiga da Hostinger; a Vercel não usa este arquivo
 robots.txt / sitemap.xml
 ```
 
