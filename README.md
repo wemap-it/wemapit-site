@@ -12,6 +12,8 @@ index.html        página principal
 404.html          página de erro
 css/style.css     estilos (tokens da paleta 2026, modos de cor, responsivo)
 js/main.js        menu, animações, barra de progresso e pop-up de convite
+portfolio/        portfólio (wemapit.com.br/portfolio): página única, CSS e JS embutidos,
+                  fotos do color grade em portfolio/assets/
 assets/images/    foto do hero, imagem de compartilhamento, logos e ícones
 .htaccess         HTTPS, compressão, cache e página 404
 robots.txt / sitemap.xml

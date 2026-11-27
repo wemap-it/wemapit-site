@@ -1,0 +1,1339 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<title>Portfólio | We Map It</title>
+<meta name="description" content="Identidade visual, landing pages, criativos, motion, edição de vídeo e planejamento. Veja o que a We Map It entrega.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#343330">
+<link rel="canonical" href="https://wemapit.com.br/portfolio/">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="We Map It">
+<meta property="og:url" content="https://wemapit.com.br/portfolio/">
+<meta property="og:title" content="Portfólio | We Map It">
+<meta property="og:description" content="Identidade visual, landing pages, criativos, motion, edição de vídeo e planejamento. Veja o que a We Map It entrega.">
+<meta property="og:image" content="https://wemapit.com.br/assets/images/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="We Map It, gestão de marketing e consultoria de branding">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Portfólio | We Map It">
+<meta name="twitter:description" content="Identidade visual, landing pages, criativos, motion, edição de vídeo e planejamento. Veja o que a We Map It entrega.">
+<meta name="twitter:image" content="https://wemapit.com.br/assets/images/og-image.jpg">
+
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+
+<!-- Base que o artifact do Claude aplicava por fora: área segura do celular, margem zero e imagens fluidas -->
+<style>
+:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0}
+img{max-width:100%}
+[hidden]{display:none!important}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,800&family=Inter:wght@400;500;600&family=Pinyon+Script&family=Playfair+Display:wght@400&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: faixas de ponta a ponta, uma por modo da Paleta Oficial (Laranja, Areia, Noite).
+   Cada peça é desenhada no tamanho real (1080×1350, 1080×1920, 1280 px…) e escalada para caber. */
+:root{
+  --laranja:#FA4100; --areia:#FFF0CF; --verde:#81F002; --carvao:#343330; --cafe:#3F3126;
+  --areia-80:rgba(255,240,207,.8); --areia-60:rgba(255,240,207,.6); --areia-30:rgba(255,240,207,.3);
+  --areia-14:rgba(255,240,207,.14); --areia-08:rgba(255,240,207,.08);
+  --carvao-70:rgba(52,51,48,.72); --carvao-40:rgba(52,51,48,.4); --carvao-15:rgba(52,51,48,.15); --carvao-08:rgba(52,51,48,.08);
+  --f-title:"Inter Tight","Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-script:"Pinyon Script","Snell Roundhand","Segoe Script",cursive;
+  --f-text:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-serif:"Playfair Display",Georgia,"Times New Roman",serif;
+  --f-mono:"JetBrains Mono","DejaVu Sans Mono",Consolas,monospace;
+  --noise:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  --gutter:max(16px,env(safe-area-inset-left,0px));
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{background:var(--carvao);color:var(--areia);font-family:var(--f-text);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:var(--carvao)}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--verde);outline-offset:3px}
+button{font:inherit;color:inherit;cursor:pointer}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ---------- Grão (obrigatório em toda peça) ---------- */
+.grain{position:relative;isolation:isolate}
+.grain::after{content:"";position:absolute;inset:0;background-image:var(--noise);background-size:200px;mix-blend-mode:overlay;opacity:.2;pointer-events:none;z-index:40}
+
+/* ---------- Navegação ---------- */
+.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:rgba(52,51,48,.94);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--areia-08);padding-left:var(--gutter);padding-right:max(16px,env(safe-area-inset-right,0px))}
+.nav-in{max-width:1240px;margin-inline:auto;display:flex;align-items:center;justify-content:space-between;gap:24px;height:60px}
+.wm{font:800 22px/1 var(--f-title);letter-spacing:-.045em;text-decoration:none;white-space:nowrap}
+.nav ul{display:flex;gap:4px;list-style:none;margin:0;padding:0;overflow-x:auto;scrollbar-width:none}
+.nav ul::-webkit-scrollbar{display:none}
+.nav a.l{display:block;padding:8px 12px;font:500 12px/1 var(--f-text);letter-spacing:.06em;text-transform:uppercase;text-decoration:none;color:var(--areia-80);border-radius:999px;white-space:nowrap}
+.nav a.l:hover{background:var(--areia-08);color:var(--areia)}
+.nav a.l b{font-weight:600;color:var(--laranja);margin-right:6px}
+@media (max-width:860px){.nav ul{display:none}}
+.nav-tag{font:500 11px/1 var(--f-text);letter-spacing:.08em;text-transform:uppercase;color:var(--areia-60)}
+@media (min-width:861px){.nav-tag{display:none}}
+
+/* ---------- Faixas ---------- */
+.band{padding-block:clamp(72px,9vw,136px);padding-left:var(--gutter);padding-right:max(16px,env(safe-area-inset-right,0px));position:relative}
+.wrap{max-width:1240px;margin-inline:auto;position:relative}
+.b-laranja{background:linear-gradient(160deg,var(--laranja) 0%,var(--laranja) 52%,var(--cafe) 135%);color:var(--areia)}
+.b-areia{background:var(--areia);color:var(--carvao)}
+.b-noite{background:linear-gradient(180deg,var(--carvao) 0%,var(--cafe) 100%);color:var(--areia)}
+.b-carvao{background:var(--carvao);color:var(--areia)}
+.b-cafe{background:var(--cafe);color:var(--areia)}
+
+/* ---------- Tipografia do sistema ---------- */
+.meta{font:500 12px/1.2 var(--f-text);letter-spacing:.08em;text-transform:uppercase}
+.display{font:800 clamp(46px,7.4vw,108px)/.85 var(--f-title);letter-spacing:-.03em;text-transform:uppercase;margin:0;text-wrap:balance}
+/* Palavra em script: substitui a palavra forte da própria frase, na cor do título, 1,4× a 1,8× o corpo.
+   .w = na mesma linha (linha de base alinhada) · .w.solo = sozinha na linha de cima */
+.w{font-family:var(--f-script);font-weight:400;font-style:normal;text-transform:none;letter-spacing:0;font-size:var(--wk,1.6em);line-height:0;color:inherit;margin:0 -.02em}
+.w.l,.o.l{color:var(--laranja)}.w.v,.o.v{color:var(--verde)}
+.w.solo{display:block;font-size:var(--wk,1.5em);line-height:.92;margin:0 0 -.04em}
+.apoio{font:700 13px/1.3 var(--f-title);letter-spacing:.06em;text-transform:uppercase;display:inline-flex;flex-direction:column;align-items:flex-start;gap:12px}
+.apoio::before,.apoio::after{content:"";width:72px;height:1px;background:currentColor;opacity:.55}
+.lead{font-size:clamp(17px,1.5vw,19px);line-height:1.6;max-width:56ch;margin:0}
+
+/* Cabeçalho de seção: título pesado + uma palavra em script invadindo a linha de cima */
+.sh{display:grid;grid-template-columns:minmax(0,1fr);gap:clamp(28px,5vw,72px);align-items:end;margin-bottom:clamp(44px,6vw,80px)}
+@media (max-width:820px){.sh{grid-template-columns:minmax(0,1fr)}}
+.sh-meta{display:flex;justify-content:space-between;gap:16px;border-top:1px solid currentColor;padding-top:12px;margin-bottom:clamp(56px,7vw,92px);opacity:.85}
+.sh-title{position:relative;padding-top:.45em}
+.pitch{margin:0;max-width:46ch;font:500 clamp(18px,1.9vw,24px)/1.4 var(--f-text);letter-spacing:-.005em;text-wrap:pretty}
+.sh .pitch{margin-top:calc(-1 * clamp(8px,3vw,40px))}
+.about-lead{display:flex;flex-direction:column;gap:clamp(18px,2.4vw,28px)}
+.about-lead .pitch{color:var(--carvao)}
+
+/* ---------- Escalador: peças desenhadas em px reais ---------- */
+.frame{position:relative;width:100%;max-width:100%;overflow:hidden;aspect-ratio:var(--ar)}
+.frame>.stage,.frame>.sizer>.stage{position:absolute;top:0;left:0;transform-origin:0 0;transform:scale(var(--s,.3))}
+.frame--scroll{overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:var(--areia-30) transparent}
+.sizer{position:relative;overflow:hidden}
+.s45{width:1080px;height:1350px}
+.s916{width:1080px;height:1920px}
+.sad{width:1200px;height:628px}
+.slp{width:1280px}
+.smob{width:390px}
+
+/* Peças: base comum */
+.pc{position:absolute;inset:0;overflow:hidden;font-family:var(--f-text)}
+.pc .k{position:absolute;font:500 19px/1 var(--f-text);letter-spacing:.04em;text-transform:uppercase;z-index:5}
+.k.tl{top:64px;left:64px}.k.tr{top:64px;right:64px}.k.bl{bottom:64px;left:64px}.k.br{bottom:64px;right:64px}
+.pc .t{font:800 150px/.85 var(--f-title);letter-spacing:-.03em;text-transform:uppercase;margin:0;position:relative;z-index:2}
+.pc .ap{font:700 26px/1.2 var(--f-title);letter-spacing:.02em;text-transform:uppercase;display:flex;flex-direction:column;align-items:center;gap:22px;position:relative;z-index:4}
+.pc .ap::before,.pc .ap::after{content:"";width:120px;height:1px;background:currentColor;opacity:.6}
+.pc .ap.left{align-items:flex-start}
+.glow{position:absolute;border-radius:50%;pointer-events:none}
+.ctr{position:absolute;left:0;right:0;display:flex;flex-direction:column;align-items:center;text-align:center}
+.tb{position:relative;display:block;align-self:stretch}
+
+/* ---------- HERO ---------- */
+.hero{padding-block:clamp(40px,5vw,64px) clamp(56px,7vw,96px);overflow:hidden}
+.hero .wrap{display:flex;flex-direction:column;gap:clamp(40px,6vw,72px)}
+.corners{display:flex;justify-content:space-between;gap:16px}
+.hero-title{position:relative;font:800 clamp(52px,11.2vw,170px)/.85 var(--f-title);letter-spacing:-.035em;text-transform:uppercase;margin:clamp(72px,9vw,128px) 0 0;color:var(--areia)}
+.hero-title .ln{display:block;position:relative;z-index:2}
+.sticker{display:grid;place-items:center;text-align:center;border-radius:50%;background:var(--verde);color:var(--carvao);border:4px solid var(--carvao);font:800 14px/1.05 var(--f-title);letter-spacing:.02em;text-transform:uppercase}
+.hero-sticker{position:absolute;right:clamp(0px,2vw,24px);top:clamp(56px,8vw,120px);width:clamp(92px,11vw,132px);aspect-ratio:1;transform:rotate(12deg);z-index:4}
+@media (max-width:620px){.hero-sticker{top:-34px;right:0;width:80px;font-size:11px;border-width:3px}}
+.hero-low{display:grid;grid-template-columns:minmax(0,auto) minmax(0,1fr);gap:clamp(24px,4vw,56px);align-items:start}
+@media (max-width:760px){.hero-low{grid-template-columns:minmax(0,1fr)}}
+.tarja{background:var(--cafe);color:var(--areia);padding:22px 26px;max-width:62ch}
+.tarja p{margin:0;font-size:clamp(16px,1.4vw,18px);line-height:1.6}
+.index{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));border-top:1px solid var(--areia-60)}
+.index a{text-decoration:none;padding:14px 12px 0 0;display:flex;flex-direction:column;gap:6px}
+.index a span{font:500 12px/1 var(--f-text);letter-spacing:.06em;opacity:.75}
+.index a b{font:800 clamp(15px,1.8vw,24px)/1 var(--f-title);letter-spacing:-.01em;text-transform:uppercase}
+.index a:hover b{text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:2px}
+@media (max-width:620px){.index{grid-template-columns:repeat(3,minmax(0,1fr));row-gap:16px}}
+.route-svg{position:absolute;right:-4%;bottom:-6%;width:min(62%,760px);height:auto;opacity:.5;pointer-events:none;z-index:0}
+.route-svg path{fill:none;stroke:var(--areia);stroke-width:2;stroke-dasharray:1400;stroke-dashoffset:0}
+@keyframes rise{from{transform:translateY(.4em);opacity:0}to{transform:none;opacity:1}}
+@keyframes wipe{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
+@keyframes draw{from{stroke-dashoffset:1400}to{stroke-dashoffset:0}}
+@keyframes pop{0%{transform:scale(0) rotate(-30deg)}70%{transform:scale(1.12) rotate(16deg)}100%{transform:scale(1) rotate(12deg)}}
+.hero-title .ln{animation:rise .9s cubic-bezier(.16,1,.3,1) both}
+.hero-title .ln:nth-child(2){animation-delay:.08s}.hero-title .ln:nth-child(3){animation-delay:.16s}
+.route-svg path{animation:draw 2.6s .2s cubic-bezier(.65,0,.35,1) both}
+.hero-sticker{animation:pop .7s 1.2s cubic-bezier(.34,1.56,.64,1) both}
+
+/* ---------- QUEM SOMOS ---------- */
+.about-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:clamp(32px,6vw,96px);align-items:start}
+@media (max-width:820px){.about-grid{grid-template-columns:minmax(0,1fr)}}
+.statement{font:800 clamp(34px,4.6vw,64px)/.95 var(--f-title);letter-spacing:-.03em;color:var(--laranja);margin:0;text-wrap:balance}
+.fronts{display:grid;gap:0;margin-top:8px}
+.front{display:grid;grid-template-columns:minmax(0,150px) minmax(0,1fr);gap:20px;padding:20px 0;border-top:1px solid var(--carvao-40)}
+.front:last-child{border-bottom:1px solid var(--carvao-40)}
+.front b{font:800 22px/1 var(--f-title);text-transform:uppercase;letter-spacing:-.01em}
+.front p{margin:0;color:var(--carvao)}
+@media (max-width:480px){.front{grid-template-columns:minmax(0,1fr);gap:6px}}
+.sub-h{display:flex;justify-content:space-between;align-items:baseline;gap:16px;margin:clamp(72px,9vw,120px) 0 28px;padding-top:14px;border-top:2px solid currentColor}
+.sub-h h3{font:800 clamp(22px,2.4vw,30px)/1 var(--f-title);text-transform:uppercase;letter-spacing:-.02em;margin:0}
+.method{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;position:relative}
+.method::before{content:"";position:absolute;left:10px;right:12%;top:10px;border-top:2px dashed var(--carvao-40)}
+.step{position:relative;display:flex;flex-direction:column;gap:10px;padding-top:40px}
+.step::before{content:"";position:absolute;top:0;left:0;width:22px;height:22px;border-radius:50%;background:var(--areia);border:2px solid var(--carvao)}
+.step:last-child::before{background:var(--laranja);border-color:var(--laranja);box-shadow:0 0 0 6px rgba(250,65,0,.18)}
+.step .meta{opacity:.7}
+.step b{font:800 26px/1 var(--f-title);text-transform:uppercase;letter-spacing:-.02em}
+.step p{margin:0;font-size:15px}
+@media (max-width:760px){.method{grid-template-columns:minmax(0,1fr) minmax(0,1fr);row-gap:36px}.method::before{display:none}}
+.swatch-row{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+@media (max-width:760px){.swatch-row{grid-template-columns:repeat(2,minmax(0,1fr))}.swc:first-child{grid-column:1/-1;aspect-ratio:auto;min-height:170px}}
+.swc{aspect-ratio:3/4;display:flex;flex-direction:column;justify-content:space-between;padding:clamp(14px,1.6vw,20px);box-shadow:inset 0 0 0 1px var(--areia-14)}
+.swc span{font:500 10.5px/1 var(--f-text);letter-spacing:.16em;text-transform:uppercase}
+.swc b{display:block;font:800 clamp(20px,2.2vw,30px)/.95 var(--f-title);letter-spacing:-.02em}
+.swc code{display:block;margin-top:10px;font:400 13px/1 var(--f-mono)}
+.mini{box-shadow:inset 0 0 0 1px var(--areia-14)}
+.mode-cap{display:grid;gap:10px}
+.mode-cap b{font:800 15px/1 var(--f-title);text-transform:uppercase;letter-spacing:.02em}
+.strip{display:flex;height:10px}
+.strip i{display:block}
+.b-carvao .ts{border-color:var(--areia-14)}
+.b-carvao .ts small{opacity:.6}
+.demo{box-shadow:inset 0 0 0 1px var(--areia-14)}
+.trio{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+@media (max-width:760px){.trio{grid-template-columns:minmax(0,1fr)}}
+.trio figure{display:flex;flex-direction:column;gap:10px;min-width:0}
+.mini{position:relative;aspect-ratio:4/4.4;padding:clamp(16px,2vw,24px);display:flex;flex-direction:column;overflow:hidden}
+.mini .top{display:flex;justify-content:space-between;align-items:center;font:500 11px/1 var(--f-text);letter-spacing:.18em;position:relative}
+.mini .pill{font:800 11px/1 var(--f-title);letter-spacing:.04em;padding:6px 12px;border-radius:999px;background:var(--verde);color:var(--carvao)}
+.mini h4{font:800 clamp(24px,2.6vw,34px)/.95 var(--f-title);letter-spacing:-.03em;margin:26px 0 0;position:relative}
+.mini .sup{margin-top:auto;font-size:13px;line-height:1.5;position:relative}
+.typo{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(28px,4vw,56px);align-items:start}
+@media (max-width:900px){.typo{grid-template-columns:minmax(0,1fr)}}
+.type-spec{display:grid;gap:0}
+.ts{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px;align-items:end;border-top:1px solid var(--carvao-40);padding:18px 0}
+.ts:last-child{border-bottom:1px solid var(--carvao-40)}
+.ts .s1{font:800 clamp(52px,6vw,84px)/.85 var(--f-title);letter-spacing:-.03em}
+.ts .s2{font:800 clamp(30px,3.4vw,46px)/.85 var(--f-title);letter-spacing:-.03em;text-transform:uppercase;padding-top:.35em}
+.ts .s3{font:500 18px/1 var(--f-text);letter-spacing:.04em;text-transform:uppercase}
+.ts .s4{font:400 clamp(40px,4.6vw,60px)/.95 var(--f-serif)}
+.ts small{display:block;text-align:right;font:500 11px/1.5 var(--f-text);letter-spacing:.05em;text-transform:uppercase;opacity:.75}
+.demos{display:grid;gap:16px}
+.demo{padding:clamp(22px,3vw,34px);display:flex;flex-direction:column;align-items:center;text-align:center;gap:18px}
+.demo .k2{align-self:stretch;display:flex;justify-content:space-between;font:500 11px/1 var(--f-text);letter-spacing:.08em;text-transform:uppercase;opacity:.8}
+.demo h4{font:800 clamp(40px,5vw,64px)/.85 var(--f-title);letter-spacing:-.03em;text-transform:uppercase;margin:0;padding-top:.3em}
+
+/* ---------- LANDING ---------- */
+.lp-show{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,280px);gap:clamp(20px,3vw,40px);align-items:start}
+@media (max-width:900px){.lp-show{grid-template-columns:minmax(0,1fr)}.phone{max-width:300px;margin-inline:auto}}
+.browser{border-radius:12px;overflow:hidden;background:#2b2a27;border:1px solid var(--areia-14);box-shadow:0 30px 80px -30px rgba(0,0,0,.6)}
+.browser-bar{display:flex;align-items:center;gap:8px;padding:10px 14px;background:var(--cafe);border-bottom:1px solid var(--areia-08)}
+.browser-bar i{width:10px;height:10px;border-radius:50%;background:var(--areia-30)}
+.url{margin-left:12px;flex:1;max-width:340px;padding:5px 12px;border-radius:999px;background:var(--areia-08);font:500 12px/1.2 var(--f-text);color:var(--areia-80);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.phone{border-radius:38px;padding:10px;background:#2b2a27;border:1px solid var(--areia-14);box-shadow:0 30px 80px -30px rgba(0,0,0,.6)}
+.phone .frame{border-radius:30px}
+.hint{font:500 12px/1.3 var(--f-text);letter-spacing:.06em;text-transform:uppercase;color:var(--areia-60);margin-top:12px;display:flex;justify-content:space-between;gap:12px}
+
+/* Landing (dentro do palco 1280px) */
+.lp{width:1280px;background:var(--carvao);color:var(--areia);font-family:var(--f-text);font-size:18px;line-height:1.55}
+.lp .wmk{font:800 30px/1 var(--f-title);letter-spacing:-.045em}
+.lp-nav{position:absolute;top:0;left:0;right:0;height:96px;display:flex;align-items:center;justify-content:space-between;padding:0 64px;z-index:10}
+.lp-nav nav{display:flex;gap:36px;font:500 15px/1 var(--f-text);color:var(--areia-80)}
+.btn{display:inline-flex;align-items:center;gap:12px;border-radius:999px;font:800 17px/1 var(--f-title);letter-spacing:.02em;text-transform:uppercase;padding:20px 32px;border:0;white-space:nowrap}
+.btn-l{background:var(--laranja);color:var(--areia)}
+.btn-o{background:transparent;color:var(--areia);box-shadow:inset 0 0 0 1.5px var(--areia-60)}
+.btn-sm{padding:14px 22px;font-size:14px}
+.lp-hero{position:relative;height:800px;overflow:hidden;background:linear-gradient(180deg,var(--carvao) 0%,var(--cafe) 100%)}
+.lp-hero .k{position:absolute;font:500 14px/1 var(--f-text);letter-spacing:.06em;text-transform:uppercase;color:var(--areia-80);z-index:5}
+.lp .t{font:800 128px/.85 var(--f-title);letter-spacing:-.03em;text-transform:uppercase;margin:0;position:relative;z-index:2}
+.lp .ap{font:700 18px/1.2 var(--f-title);letter-spacing:.04em;text-transform:uppercase;display:flex;flex-direction:column;align-items:center;gap:16px}
+.lp .ap::before,.lp .ap::after{content:"";width:96px;height:1px;background:currentColor;opacity:.6}
+.lp-sec{padding:112px 64px;position:relative}
+.lp-eyebrow{font:500 14px/1 var(--f-text);letter-spacing:.08em;text-transform:uppercase;margin-bottom:22px;opacity:.8}
+.lp h3{font:800 64px/.92 var(--f-title);letter-spacing:-.03em;margin:0 0 56px;max-width:900px}
+.glass{background:rgba(255,240,207,.08);border:1px solid rgba(255,240,207,.16);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-radius:24px;padding:36px}
+.lp-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.lp-cards .glass b{display:block;font:800 30px/1 var(--f-title);text-transform:uppercase;letter-spacing:-.02em;margin:18px 0 14px}
+.lp-cards ul{margin:20px 0 0;padding:0;list-style:none;display:grid;gap:10px;font-size:16px;color:var(--areia-80)}
+.lp-cards li{padding-top:10px;border-top:1px solid var(--areia-14)}
+.lp-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;position:relative}
+.lp-steps::before{content:"";position:absolute;top:14px;left:14px;right:22%;border-top:2px dashed var(--carvao-40)}
+.lp-steps div{position:relative;padding-top:56px}
+.lp-steps div::before{content:"";position:absolute;top:0;left:0;width:30px;height:30px;border-radius:50%;background:var(--areia);border:2.5px solid var(--carvao)}
+.lp-steps div:last-child::before{background:var(--laranja);border-color:var(--laranja)}
+.lp-steps b{display:block;font:800 30px/1 var(--f-title);text-transform:uppercase;margin:10px 0 12px}
+.lp-steps p{margin:0;font-size:16.5px}
+
+/* ---------- CRIATIVOS ---------- */
+.group-h{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap;margin:0 0 20px;padding-top:14px;border-top:2px solid currentColor}
+.group-h h3{font:800 clamp(20px,2.2vw,28px)/1 var(--f-title);text-transform:uppercase;letter-spacing:-.02em;margin:0}
+.group-h .meta{opacity:.7}
+.feed{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(12px,1.6vw,22px)}
+@media (max-width:980px){.feed{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.verts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(12px,1.6vw,22px)}
+@media (max-width:760px){.verts{grid-template-columns:repeat(2,minmax(0,1fr))}.verts figure:last-child{grid-column:1/-1;max-width:calc(50% - 8px)}}
+fig,figure{margin:0}
+.piece{display:flex;flex-direction:column;gap:12px;min-width:0}
+.piece .frame{box-shadow:0 18px 50px -24px rgba(52,51,48,.55)}
+.b-areia .piece .frame{outline:1px solid var(--carvao-15)}
+.gap-xl{height:clamp(64px,8vw,104px)}
+.ad-row{display:grid;grid-template-columns:minmax(0,860px);gap:clamp(20px,3vw,40px);align-items:end}
+@media (max-width:820px){.ad-row{grid-template-columns:minmax(0,1fr)}}
+/* carrossel */
+.car-ctrl{display:flex;align-items:center;gap:10px}
+.car-ctrl button{width:44px;height:44px;border-radius:50%;border:1.5px solid var(--carvao);background:transparent;color:var(--carvao);display:grid;place-items:center;font:700 18px/1 var(--f-title)}
+.car-ctrl button:hover{background:var(--carvao);color:var(--areia)}
+.car-ctrl output{font:600 13px/1 var(--f-text);font-variant-numeric:tabular-nums;letter-spacing:.06em;min-width:56px;text-align:center}
+.track{display:grid;grid-auto-flow:column;grid-auto-columns:min(360px,78%);gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:18px;scrollbar-width:thin;scrollbar-color:var(--carvao-40) transparent}
+.track>figure{scroll-snap-align:start}
+.track .frame{outline:1px solid var(--carvao-15);box-shadow:0 18px 50px -24px rgba(52,51,48,.45)}
+
+/* ---------- MOTION ---------- */
+.motion-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(14px,2vw,28px)}
+@media (max-width:900px){.motion-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:520px){.motion-grid{grid-template-columns:minmax(0,1fr)}}
+.mt{display:flex;flex-direction:column;gap:12px;min-width:0}
+.mt .frame{border-radius:6px}
+.mt-cap{display:flex;justify-content:flex-end;align-items:flex-start;gap:12px}
+.replay{flex:none;border:1px solid var(--areia-30);background:transparent;border-radius:999px;padding:7px 12px;font:600 11px/1 var(--f-text);letter-spacing:.06em;text-transform:uppercase}
+.replay:hover{background:var(--areia-08)}
+
+/* M1 logo */
+.m1{background:var(--areia)}
+.m1 svg{position:absolute;inset:0;width:100%;height:100%}
+.m1 path{fill:none;stroke:var(--carvao);stroke-width:5;stroke-linecap:round;stroke-dasharray:1600;stroke-dashoffset:0}
+.m1 .wmk{position:absolute;left:0;right:0;top:600px;text-align:center;font:800 170px/1 var(--f-title);letter-spacing:-.05em;color:var(--laranja)}
+.m1 .wmk span{display:inline-block}
+.m1 .pin{position:absolute;left:910px;top:735px;width:34px;height:34px;border-radius:50%;background:var(--laranja)}
+.m1 .ring{position:absolute;left:887px;top:712px;width:80px;height:80px;border-radius:50%;border:4px solid var(--laranja);opacity:0}
+.m1 .tag{position:absolute;left:0;right:0;top:840px;text-align:center;font:700 28px/1 var(--f-title);letter-spacing:.24em;text-transform:uppercase;color:var(--carvao)}
+.run .m1 path{animation:m1draw 1.5s cubic-bezier(.65,0,.35,1) both}
+.run .m1 .wmk span{animation:m1up .6s cubic-bezier(.16,1,.3,1) both}
+.run .m1 .pin{animation:m1pin .6s 1.35s cubic-bezier(.34,1.56,.64,1) both}
+.run .m1 .ring{animation:m1ring 1.2s 1.6s ease-out both}
+.run .m1 .tag{animation:fadeIn .6s 2s both}
+@keyframes m1draw{from{stroke-dashoffset:1600}to{stroke-dashoffset:0}}
+@keyframes m1up{from{opacity:0;transform:translateY(60px)}to{opacity:1;transform:none}}
+@keyframes m1pin{from{transform:scale(0)}to{transform:scale(1)}}
+@keyframes m1ring{0%{opacity:.9;transform:scale(.4)}100%{opacity:0;transform:scale(2.2)}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+
+/* M2 lettering */
+.m2{background:radial-gradient(70% 55% at 70% 80%,rgba(250,65,0,.55),transparent 70%),linear-gradient(180deg,var(--carvao),var(--cafe))}
+.m2::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,rgba(52,51,48,.35) 0 2px,transparent 2px 6px);z-index:30;pointer-events:none}
+.m2 .words{position:absolute;left:84px;right:84px;top:310px;display:flex;flex-direction:column;gap:0;font:800 168px/.86 var(--f-title);letter-spacing:-.035em;text-transform:uppercase;color:var(--areia)}
+.m2 .words span{display:block;text-shadow:-3px 0 rgba(250,65,0,.8),3px 0 rgba(255,240,207,.35)}
+.m2 .words span.o{font:400 1.5em/.8 var(--f-script);text-transform:none;letter-spacing:0;margin:.08em 0 -.04em}
+.m2 .k{color:var(--areia-80)}
+.run .m2 .words span{animation:slam .5s cubic-bezier(.16,1,.3,1) both}
+@keyframes slam{0%{opacity:0;transform:scale(1.35);filter:blur(10px);text-shadow:-22px 0 rgba(250,65,0,.9),22px 0 rgba(255,240,207,.6)}100%{opacity:1;transform:none;filter:none}}
+
+/* M3 script */
+.m3{background:radial-gradient(90% 80% at 50% 45%,transparent 50%,rgba(250,65,0,.16) 100%),var(--areia);color:var(--carvao)}
+.run .m3 .t{animation:m1up .8s cubic-bezier(.16,1,.3,1) both}
+.run .m3 .w{animation:ink 1.4s .5s cubic-bezier(.65,0,.35,1) both}
+@keyframes ink{from{clip-path:inset(-60% 100% -60% -15%)}to{clip-path:inset(-60% -15% -60% -15%)}}
+.run .m3 .ap{animation:fadeIn .6s 1.6s both}
+
+/* M4 contador */
+@property --n{syntax:"<integer>";initial-value:0;inherits:false}
+.m4{background:linear-gradient(160deg,var(--laranja) 0%,var(--laranja) 45%,var(--cafe) 120%);color:var(--areia)}
+.m4 .num{position:absolute;left:64px;top:300px;font:900 360px/.8 var(--f-title);letter-spacing:-.05em;--n:38;counter-reset:n var(--n)}
+.m4 .num::after{content:"+" counter(n) "%"}
+.m4 .lbl{position:absolute;left:72px;top:640px;font:800 92px/.9 var(--f-title);text-transform:uppercase;letter-spacing:-.03em}
+.m4 .tj{position:absolute;left:72px;bottom:150px;width:620px;background:var(--cafe);padding:30px 34px;font:500 30px/1.45 var(--f-text)}
+.m4 .sticker{position:absolute;right:80px;top:150px;width:250px;height:250px;font-size:40px;border-width:8px;transform:rotate(12deg)}
+.run .m4 .num{animation:count 1.6s cubic-bezier(.16,1,.3,1) both}
+.run .m4 .sticker{animation:pop .7s 1.3s cubic-bezier(.34,1.56,.64,1) both}
+.run .m4 .lbl,.run .m4 .tj{animation:m1up .7s .3s cubic-bezier(.16,1,.3,1) both}
+@keyframes count{from{--n:0}to{--n:38}}
+
+/* M5 glow */
+.m5{background:linear-gradient(180deg,var(--carvao),var(--cafe))}
+.m5 .g1{width:900px;height:900px;left:-200px;top:520px;background:radial-gradient(circle,rgba(250,65,0,.85),rgba(250,65,0,0) 65%);animation:drift1 9s ease-in-out infinite alternate}
+.m5 .g2{width:620px;height:620px;right:-220px;top:-120px;background:radial-gradient(circle,rgba(250,65,0,.5),rgba(250,65,0,0) 65%);animation:drift2 11s ease-in-out infinite alternate}
+@keyframes drift1{to{transform:translate(260px,-220px) scale(1.15)}}
+@keyframes drift2{to{transform:translate(-200px,180px) scale(.9)}}
+.m5 .prog{position:absolute;top:56px;left:56px;right:56px;display:grid;grid-template-columns:repeat(4,1fr);gap:10px;z-index:5}
+.m5 .prog i{height:8px;border-radius:4px;background:var(--areia-30);overflow:hidden;display:block}
+.m5 .prog i:first-child{background:var(--areia-80)}
+.m5 .prog i b{display:block;height:100%;width:62%;background:var(--verde)}
+.run .m5 .prog i b{animation:fill 5s linear both}
+@keyframes fill{from{width:0}to{width:100%}}
+.m5 .who{position:absolute;top:100px;left:56px;display:flex;align-items:center;gap:18px;font:600 30px/1 var(--f-text);z-index:5}
+.m5 .who i{width:70px;height:70px;border-radius:50%;background:var(--laranja);display:grid;place-items:center;font:800 34px/1 var(--f-title);font-style:normal;letter-spacing:-.04em}
+.m5 .who span{color:var(--areia-60);font-weight:500}
+.m5 .ttl{position:absolute;left:80px;right:80px;top:380px;font:800 118px/.9 var(--f-title);letter-spacing:-.03em;color:var(--areia);z-index:5}
+.m5 .glass{position:absolute;left:80px;right:80px;top:820px;font:500 36px/1.4 var(--f-text);padding:44px;border-radius:32px;z-index:5}
+.m5 .btn{position:absolute;left:50%;bottom:110px;transform:translateX(-50%);font-size:38px;padding:34px 70px;z-index:5}
+.run .m5 .glass{animation:m1up .8s .2s cubic-bezier(.16,1,.3,1) both}
+
+/* M6 transição: Antes (z1) embaixo, Depois (z2) revelado por uma borda diagonal, faixa carvão (z3) colada na borda.
+   Revelação e faixa usam o mesmo deslocamento X e a mesma curva, então andam juntas. Inclinação: 300px na altura toda. */
+.m6 .scA,.m6 .scB{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;padding:0 80px}
+.m6 .scA{background:var(--laranja);color:var(--areia);z-index:1}
+.m6 .scB{background:var(--areia);color:var(--laranja);z-index:2;clip-path:polygon(0 0,1380px 0,1080px 100%,0 100%)}
+.m6 .t{font-size:170px}
+.m6 .scA small,.m6 .scB small{font:800 34px/1.2 var(--f-title);text-transform:uppercase;letter-spacing:.04em;margin-top:40px;display:block}
+.m6 .scB small{color:var(--carvao)}
+.m6 .mk{position:absolute;top:64px;left:80px;font:500 19px/1 var(--f-text);letter-spacing:.04em;text-transform:uppercase}
+.m6 .scA .mk{color:var(--areia)}
+.m6 .scB .mk{color:var(--carvao)}
+.m6 .stripe{position:absolute;inset:0;background:var(--carvao);z-index:3;clip-path:polygon(1380px 0,1490px 0,1190px 100%,1080px 100%)}
+.run .m6 .scB{animation:reveal 1.2s .9s cubic-bezier(.83,0,.17,1) both}
+.run .m6 .stripe{animation:stripe 1.2s .9s cubic-bezier(.83,0,.17,1) both}
+@keyframes reveal{from{clip-path:polygon(0 0,-110px 0,-410px 100%,0 100%)}to{clip-path:polygon(0 0,1380px 0,1080px 100%,0 100%)}}
+@keyframes stripe{from{clip-path:polygon(-110px 0,0px 0,-300px 100%,-410px 100%)}to{clip-path:polygon(1380px 0,1490px 0,1190px 100%,1080px 100%)}}
+
+/* ---------- EDIÇÃO ---------- */
+.ed{display:grid;grid-template-columns:minmax(0,300px) minmax(0,1fr);gap:clamp(20px,3vw,40px);align-items:start}
+@media (max-width:860px){.ed{grid-template-columns:minmax(0,1fr)}.ed>.reel{max-width:280px;margin-inline:auto;width:100%}}
+.reel .frame{border-radius:18px;border:1px solid var(--areia-14)}
+.panel{background:var(--carvao);border:1px solid var(--areia-14);border-radius:10px;overflow:hidden;min-width:0}
+.panel-h{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 16px;border-bottom:1px solid var(--areia-08);flex-wrap:wrap}
+.panel-h .meta{color:var(--areia-80)}
+.tc{font:600 15px/1 var(--f-text);font-variant-numeric:tabular-nums;letter-spacing:.04em}
+.tc span{color:var(--areia-60)}
+.play{display:inline-flex;align-items:center;gap:8px;border:0;background:var(--laranja);color:var(--areia);border-radius:999px;padding:8px 16px;font:800 12px/1 var(--f-title);letter-spacing:.06em;text-transform:uppercase}
+.tl-scroll{overflow-x:auto}
+.tl{min-width:640px;display:grid;grid-template-columns:96px minmax(0,1fr);font-size:11px}
+.tl-lab{display:flex;flex-direction:column}
+.tl-lab div,.tl-ruler-lab{height:44px;display:flex;flex-direction:column;justify-content:center;padding:0 12px;border-bottom:1px solid var(--areia-08);border-right:1px solid var(--areia-08);font:600 11px/1.2 var(--f-text);letter-spacing:.05em;text-transform:uppercase}
+.tl-ruler-lab{height:30px}
+.tl-lab div span{font-weight:500;color:var(--areia-60);text-transform:none;letter-spacing:0}
+.tl-lanes{position:relative;cursor:pointer}
+.tl-ruler{height:30px;position:relative;border-bottom:1px solid var(--areia-08)}
+.tl-ruler i{position:absolute;bottom:0;width:1px;height:6px;background:var(--areia-30)}
+.tl-ruler i.mj{height:12px;background:var(--areia-60)}
+.tl-ruler em{position:absolute;top:5px;font:500 10px/1 var(--f-text);font-style:normal;color:var(--areia-60);transform:translateX(3px);font-variant-numeric:tabular-nums}
+.lane{height:44px;position:relative;border-bottom:1px solid var(--areia-08)}
+.clip{position:absolute;top:6px;bottom:6px;border-radius:4px;padding:0 8px;display:flex;align-items:center;overflow:hidden;white-space:nowrap;font:600 10.5px/1 var(--f-text);letter-spacing:.02em}
+.clip.let{background:var(--laranja);color:var(--areia)}
+.clip.cam{background:var(--cafe);color:var(--areia);box-shadow:inset 0 0 0 1px var(--areia-30)}
+.clip.cam2{background:#4a3a2d;color:var(--areia);box-shadow:inset 0 0 0 1px var(--areia-30)}
+.clip.leg{background:var(--areia-30);color:var(--areia);top:12px;bottom:12px}
+.clip.vo{background:rgba(255,240,207,.06);box-shadow:inset 0 0 0 1px var(--areia-14);padding:0 4px;gap:2px;align-items:center}
+.clip.vo i{flex:1;background:var(--areia-60);border-radius:1px;min-width:1px}
+.clip.mus{background:linear-gradient(90deg,rgba(250,65,0,.12),rgba(250,65,0,.32) 8%,rgba(250,65,0,.32) 88%,rgba(250,65,0,.08));color:var(--areia-80);box-shadow:inset 0 0 0 1px rgba(250,65,0,.45)}
+.clip.sfx{background:var(--areia-60);top:14px;bottom:14px;padding:0}
+.playhead{position:absolute;top:0;bottom:0;width:2px;background:var(--verde);left:0;pointer-events:none;z-index:4}
+.playhead::before{content:"";position:absolute;top:0;left:-6px;border:7px solid transparent;border-top:10px solid var(--verde)}
+.ed-specs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--areia-08)}
+.ed-specs div{padding:14px 16px;border-right:1px solid var(--areia-08);display:flex;flex-direction:column;gap:4px}
+.ed-specs div:last-child{border-right:0}
+.ed-specs span{font:500 10.5px/1.2 var(--f-text);letter-spacing:.06em;text-transform:uppercase;color:var(--areia-60)}
+.ed-specs b{font:700 15px/1.2 var(--f-title);font-variant-numeric:tabular-nums}
+@media (max-width:560px){.ed-specs{grid-template-columns:repeat(2,minmax(0,1fr))}.ed-specs div:nth-child(2){border-right:0}.ed-specs div:nth-child(-n+2){border-bottom:1px solid var(--areia-08)}}
+/* reel (palco 1080×1920) */
+.rl{background:var(--cafe)}
+.rl .scene{position:absolute;inset:0;transition:opacity .25s}
+.sc-a{background:radial-gradient(28% 18% at 50% 40%,var(--cafe) 0 60%,transparent 62%),radial-gradient(44% 30% at 50% 82%,var(--cafe) 0 64%,transparent 66%),radial-gradient(36% 26% at 66% 30%,rgba(255,240,207,.95),rgba(250,65,0,.7) 45%,transparent 75%),linear-gradient(180deg,#7a2f0e,var(--cafe) 80%)}
+.sc-b{background:radial-gradient(60% 24% at 50% 88%,#5a4433 0 70%,transparent 72%),radial-gradient(10% 6% at 34% 74%,var(--areia) 0 50%,transparent 52%),radial-gradient(14% 4% at 62% 78%,var(--laranja) 0 60%,transparent 62%),radial-gradient(70% 50% at 30% 20%,rgba(250,65,0,.55),transparent 70%),linear-gradient(180deg,var(--carvao),var(--cafe))}
+.sc-c{background:radial-gradient(24% 26% at 50% 50%,var(--areia) 0 52%,transparent 54%),radial-gradient(30% 34% at 50% 50%,var(--carvao) 0 70%,transparent 72%),radial-gradient(80% 60% at 50% 50%,rgba(250,65,0,.5),transparent 70%),linear-gradient(180deg,var(--cafe),var(--carvao))}
+.rl .ep{position:absolute;top:96px;left:72px;background:var(--carvao);padding:16px 22px;font:800 34px/1 var(--f-title);letter-spacing:.04em;color:var(--areia);z-index:5}
+.rl .lt{position:absolute;left:0;right:0;top:470px;text-align:center;font:800 230px/.85 var(--f-title);letter-spacing:-.04em;text-transform:uppercase;color:var(--areia);z-index:5;text-shadow:0 10px 60px rgba(52,51,48,.5)}
+.rl .lt.big{font-size:150px}
+.rl .lt .wmk{font:800 150px/1 var(--f-title);letter-spacing:-.05em;text-transform:none;color:var(--laranja)}
+.rl .capt{position:absolute;left:90px;right:90px;top:1330px;text-align:center;font:600 64px/1.18 var(--f-text);color:var(--areia);z-index:5;text-shadow:0 4px 18px rgba(52,51,48,.7)}
+.rl .capt b{font:800 84px/1 var(--f-title);color:var(--laranja);text-transform:uppercase;letter-spacing:-.02em;text-shadow:0 4px 18px rgba(52,51,48,.6)}
+.rl .capt span{opacity:.0}
+.rl .capt span.on{opacity:1}
+/* grade */
+.grade-wrap{display:grid;grid-template-columns:minmax(0,1fr);gap:clamp(24px,4vw,56px);align-items:start}
+@media (max-width:900px){.grade-wrap{grid-template-columns:minmax(0,1fr)}}
+.ba{position:relative;aspect-ratio:1376/768;border-radius:8px;overflow:hidden;border:1px solid var(--areia-14)}
+.ba .layer{position:absolute;inset:0}
+.ba .layer img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 30%;max-width:none}
+.cold{background:var(--carvao)}
+.warm{background:var(--cafe);clip-path:inset(0 0 0 var(--cut,50%))}
+.ba .layer::after{content:"";position:absolute;inset:0;background-image:var(--noise);background-size:180px;mix-blend-mode:overlay;opacity:.22}
+.ba .div{position:absolute;top:0;bottom:0;left:var(--cut,50%);width:2px;background:var(--areia);transform:translateX(-1px);pointer-events:none}
+.ba .div::after{content:"↔";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:40px;height:40px;border-radius:50%;background:var(--areia);color:var(--carvao);display:grid;place-items:center;font:700 16px/1 var(--f-title)}
+.ba input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;margin:0}
+.ba .lab{position:absolute;bottom:12px;font:600 11px/1 var(--f-text);letter-spacing:.06em;text-transform:uppercase;padding:7px 10px;background:rgba(52,51,48,.75);color:var(--areia);pointer-events:none}
+
+/* ---------- ESTRATÉGIA ---------- */
+.planner{background:var(--areia);border:1.5px solid var(--carvao);position:relative}
+.planner+.planner{margin-top:clamp(28px,4vw,48px)}
+.pl-h{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;padding:20px 24px;border-bottom:1.5px solid var(--carvao)}
+.pl-h h3{font:800 clamp(22px,2.6vw,34px)/1 var(--f-title);text-transform:uppercase;letter-spacing:-.02em;margin:6px 0 0}
+.pl-h .meta{opacity:.7}
+.pl-b{padding:24px}
+.route{position:relative;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:16px}
+.route svg{position:absolute;left:0;top:0;width:100%;height:80px;overflow:visible}
+.route svg path{fill:none;stroke:var(--carvao);stroke-width:2;stroke-dasharray:6 7;vector-effect:non-scaling-stroke}
+.stop{position:relative;padding-top:100px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.stop .pin{position:absolute;top:26px;left:calc(50% - 15px);width:30px;height:30px;border-radius:50%;background:var(--areia);border:2.5px solid var(--carvao);display:grid;place-items:center;font:800 11px/1 var(--f-title)}
+.stop.dest .pin{background:var(--laranja);border-color:var(--laranja);color:var(--areia);width:38px;height:38px;top:22px;left:calc(50% - 19px);box-shadow:0 0 0 7px rgba(250,65,0,.18)}
+.stop .when{font:500 11px/1 var(--f-text);letter-spacing:.07em;text-transform:uppercase;opacity:.7}
+.stop b{font:800 clamp(15px,1.55vw,21px)/1 var(--f-title);text-transform:uppercase;letter-spacing:-.01em;overflow-wrap:anywhere}
+.stop p{margin:0;font-size:14px;line-height:1.45}
+.stop dl{margin:6px 0 0;display:grid;gap:8px;font-size:13px;line-height:1.4}
+.stop dt{font:600 10.5px/1 var(--f-text);letter-spacing:.07em;text-transform:uppercase;opacity:.65;margin-bottom:3px}
+.stop dd{margin:0}
+@media (max-width:860px){.route{grid-template-columns:minmax(0,1fr);gap:0}.route svg{display:none}.route::before{content:"";position:absolute;left:14px;top:20px;bottom:20px;border-left:2px dashed var(--carvao)}
+ .stop{padding:10px 0 26px 52px}.stop .pin,.stop.dest .pin{top:6px;left:0}.stop.dest .pin{left:-4px}}
+.cal-scroll{overflow-x:auto}
+.cal{display:grid;grid-template-columns:repeat(7,minmax(150px,1fr));min-width:1050px}
+.day{border-right:1px solid var(--carvao-40);display:flex;flex-direction:column;min-width:0}
+.day:last-child{border-right:0}
+.day-h{padding:12px 14px;border-bottom:1px solid var(--carvao-40);display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.day-h b{font:800 26px/1 var(--f-title);font-variant-numeric:tabular-nums}
+.day-h span{font:500 11px/1 var(--f-text);letter-spacing:.07em;text-transform:uppercase}
+.day.today .day-h{background:var(--laranja);color:var(--areia)}
+.day-c{padding:12px;display:flex;flex-direction:column;gap:10px;flex:1}
+.post{border:1px solid var(--carvao-40);padding:10px 11px;display:flex;flex-direction:column;gap:7px;background:rgba(255,255,255,0)}
+.post .fmt{font:600 10.5px/1 var(--f-text);letter-spacing:.06em;text-transform:uppercase;display:flex;justify-content:space-between;gap:6px;opacity:.85}
+.post p{margin:0;font:700 14px/1.25 var(--f-title)}
+.post .row{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.chip{font:700 10px/1 var(--f-text);letter-spacing:.06em;text-transform:uppercase;padding:4px 7px;border-radius:999px;white-space:nowrap}
+.i-hero{background:var(--laranja);color:var(--areia)}
+.i-hub{background:var(--carvao);color:var(--areia)}
+.i-help{box-shadow:inset 0 0 0 1px var(--carvao);color:var(--carvao)}
+.st{font:600 10.5px/1 var(--f-text);display:inline-flex;align-items:center;gap:5px;opacity:.85}
+.st::before{content:"";width:8px;height:8px;border-radius:50%;border:1.5px solid var(--carvao)}
+.st.pub::before{background:var(--carvao)}
+.st.agd::before{background:linear-gradient(90deg,var(--carvao) 50%,transparent 50%)}
+.st.edi::before{border-style:dashed}
+.legend{display:flex;gap:18px;flex-wrap:wrap;padding:14px 24px;border-top:1px solid var(--carvao-40);font-size:12.5px;align-items:center}
+.gantt-scroll{overflow-x:auto}
+.gantt{min-width:760px;display:grid;grid-template-columns:220px repeat(28,minmax(0,1fr));font-size:13px}
+.g-wk{grid-column:span 7;padding:10px 10px;border-left:1px solid var(--carvao-40);border-bottom:1px solid var(--carvao-40);font:600 11px/1.2 var(--f-text);letter-spacing:.06em;text-transform:uppercase}
+.g-wk b{display:block;font:800 16px/1.1 var(--f-title);letter-spacing:0;text-transform:none;margin-bottom:2px}
+.g-corner{border-bottom:1px solid var(--carvao-40)}
+.g-name{padding:12px 12px 12px 0;border-bottom:1px solid var(--carvao-15);font:700 14px/1.25 var(--f-title);display:flex;flex-direction:column;justify-content:center}
+.g-name span{font:500 11.5px/1.3 var(--f-text);opacity:.7}
+.g-lane{grid-column:span 28;position:relative;border-bottom:1px solid var(--carvao-15);background:repeating-linear-gradient(90deg,transparent 0 calc(25% - 1px),var(--carvao-15) calc(25% - 1px) 25%)}
+.g-bar{position:absolute;top:50%;height:22px;transform:translateY(-50%);border-radius:3px;font:700 10.5px/22px var(--f-text);letter-spacing:.04em;padding:0 8px;white-space:nowrap;overflow:hidden;text-transform:uppercase}
+.g-bar.c{background:var(--carvao);color:var(--areia)}
+.g-bar.l{background:var(--laranja);color:var(--areia)}
+.g-bar.o{box-shadow:inset 0 0 0 1.5px var(--carvao);color:var(--carvao)}
+.g-ms{position:absolute;top:50%;width:14px;height:14px;background:var(--carvao);transform:translate(-50%,-50%) rotate(45deg)}
+.kpis{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));border-top:1.5px solid var(--carvao)}
+.kpi{padding:18px 20px;border-right:1px solid var(--carvao-40);display:flex;flex-direction:column;gap:6px;min-width:0}
+.kpi:last-child{border-right:0}
+.kpi span{font:500 11px/1.25 var(--f-text);letter-spacing:.06em;text-transform:uppercase;opacity:.75}
+.kpi b{font:800 clamp(26px,3vw,38px)/1 var(--f-title);letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.kpi em{font-style:normal;font-size:12.5px;opacity:.8}
+@media (max-width:860px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.kpi{border-bottom:1px solid var(--carvao-40)}}
+.example-note{font:500 12px/1.4 var(--f-text);letter-spacing:.04em;opacity:.7;margin-top:14px}
+
+/* ---------- FECHAMENTO ---------- */
+.close-title{position:relative;font:800 clamp(56px,12vw,180px)/.85 var(--f-title);letter-spacing:-.035em;text-transform:uppercase;margin:clamp(40px,6vw,80px) 0 clamp(72px,9vw,128px)}
+.close-title .ln{display:block;position:relative;z-index:2}
+.logos{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:clamp(48px,6vw,80px)}
+@media (max-width:760px){.logos{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.lg{aspect-ratio:16/10;display:grid;place-items:center;font:800 clamp(20px,2.6vw,34px)/1 var(--f-title);letter-spacing:-.045em}
+.close-cta{display:flex;flex-direction:column;gap:22px;min-width:0}
+.close-actions{display:flex;flex-wrap:wrap;align-items:center;gap:14px 28px}
+.cta-btn{display:inline-flex;align-items:center;justify-content:center;padding:18px 30px;border-radius:999px;background:var(--areia);color:var(--carvao);font:800 13px/1.2 var(--f-title);letter-spacing:.06em;text-transform:uppercase;text-decoration:none;transition:background-color .3s,color .3s}
+.cta-btn:hover,.cta-btn:focus-visible{background:var(--verde);color:var(--carvao)}
+.cta-link{font:600 12px/1.2 var(--f-text);letter-spacing:.06em;text-transform:uppercase;color:var(--areia);text-underline-offset:5px}
+.foot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:clamp(56px,7vw,96px);padding-top:14px;border-top:1px solid var(--areia-60)}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+}
+</style>
+
+</head>
+<body>
+
+<nav class="nav" aria-label="Seções">
+  <div class="nav-in">
+    <a class="wm" href="/" title="Voltar para o site">we map it.</a>
+    <ul>
+      <li><a class="l" href="#identidade"><b>01</b>Identidade</a></li>
+      <li><a class="l" href="#landing"><b>02</b>Landing</a></li>
+      <li><a class="l" href="#criativos"><b>03</b>Criativos</a></li>
+      <li><a class="l" href="#motion"><b>04</b>Motion</a></li>
+      <li><a class="l" href="#edicao"><b>05</b>Edição</a></li>
+      <li><a class="l" href="#estrategia"><b>06</b>Estratégia</a></li>
+    </ul>
+    <span class="nav-tag">Portfólio Nº 001</span>
+  </div>
+</nav>
+
+<!-- ================= HERO · Modo Laranja ================= -->
+<header id="topo" class="band b-laranja hero grain">
+  <svg class="route-svg" viewBox="0 0 760 420" aria-hidden="true"><path d="M10 400 C 120 380, 140 300, 250 290 S 380 360, 470 260 S 560 90, 700 70"/><circle cx="700" cy="70" r="9" fill="#FFF0CF"/></svg>
+  <div class="wrap">
+    <div class="corners meta"><span>@wemapit</span><span>Portfólio Nº 001</span></div>
+    <div style="position:relative">
+      <h1 class="hero-title">
+        <span class="ln">Sem&nbsp;<span class="w v">Mapa</span>,</span>
+        <span class="ln">todo caminho</span>
+        <span class="ln">parece certo.</span>
+      </h1>
+      <div class="sticker hero-sticker" aria-hidden="true">Portfólio<br>2027</div>
+    </div>
+    <div class="hero-low">
+      <span class="apoio">Criação e marketing com direção</span>
+      <div class="tarja"><p>Identidade visual, conteúdo, tráfego e landing page num mapa só. Você investe sabendo pra onde cada peça leva.</p></div>
+    </div>
+    <nav class="index" aria-label="Índice do portfólio">
+      <a href="#identidade"><span>01</span><b>Identidade</b></a>
+      <a href="#landing"><span>02</span><b>Landing</b></a>
+      <a href="#criativos"><span>03</span><b>Criativos</b></a>
+      <a href="#motion"><span>04</span><b>Motion</b></a>
+      <a href="#edicao"><span>05</span><b>Edição</b></a>
+      <a href="#estrategia"><span>06</span><b>Estratégia</b></a>
+    </nav>
+    <div class="corners meta"><span>Criação e marketing</span><span>Novembro 2026</span></div>
+  </div>
+</header>
+
+<!-- ================= QUEM SOMOS · Modo Areia ================= -->
+<section id="quem-somos" class="band b-areia">
+  <div class="wrap">
+    <div class="sh-meta meta"><span>Quem somos</span><span>We Map It</span></div>
+    <div class="about-grid">
+      <div class="about-lead"><p class="statement">A gente desenha o mapa antes de gastar o primeiro real.</p><p class="pitch">Agência de criação e marketing para marcas que cresceram no boca a boca e querem ir além.</p></div>
+      <div>
+        <div class="fronts">
+          <div class="front"><b>Gestão</b><p>Redes com linha editorial, calendário fechado e leitura semanal dos números.</p></div>
+          <div class="front"><b>Tráfego</b><p>Campanhas com público, oferta e página definidos antes do orçamento.</p></div>
+          <div class="front"><b>Branding</b><p>Posicionamento, identidade e voz que deixam a marca fácil de escolher.</p></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub-h"><h3>Método Mapa</h3></div>
+    <div class="method">
+      <div class="step"><span class="meta">Parada 1</span><b>Diagnóstico</b></div>
+      <div class="step"><span class="meta">Parada 2</span><b>Rota</b></div>
+      <div class="step"><span class="meta">Parada 3</span><b>Execução</b></div>
+      <div class="step"><span class="meta">Destino</span><b>Leitura</b></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= 01 IDENTIDADE VISUAL · Carvão ================= -->
+<section id="identidade" class="band b-carvao">
+  <div class="wrap">
+    <div class="sh-meta meta"><span>Nº 01</span><span>Identidade visual</span></div>
+    <div class="sh">
+      <h2 class="display sh-title">Uma marca, um&nbsp;<span class="w v">Sistema</span></h2>
+      <p class="pitch">Cor, composição, tipografia e logotipo pensados juntos. Sua marca fica reconhecível em qualquer peça, do story ao outdoor.</p>
+    </div>
+
+    <div class="group-h"><h3>Cores</h3></div>
+    <div class="swatch-row">
+      <div class="swc" style="background:var(--laranja);color:var(--areia)"><span>Principal</span><div><b>Laranja<br>We Map It</b><code>#FA4100</code></div></div>
+      <div class="swc" style="background:var(--areia);color:var(--carvao)"><span>Principal</span><div><b>Areia</b><code>#FFF0CF</code></div></div>
+      <div class="swc" style="background:var(--verde);color:var(--carvao)"><span>Detalhe</span><div><b>Verde<br>Sinal</b><code>#81F002</code></div></div>
+      <div class="swc" style="background:var(--carvao);color:var(--areia)"><span>Escuro neutro</span><div><b>Carvão</b><code>#343330</code></div></div>
+      <div class="swc" style="background:var(--cafe);color:var(--areia)"><span>Escuro quente</span><div><b>Café</b><code>#3F3126</code></div></div>
+    </div>
+
+    <div class="gap-xl"></div>
+    <div class="group-h"><h3>Modos de composição</h3></div>
+    <div class="trio">
+      <figure><div class="mini grain" style="background:var(--laranja);color:var(--areia)"><div class="top"><span>WE MAP IT.</span><span class="pill">NOVO</span></div><h4>Sem mapa,<br>todo caminho<br>parece certo.</h4><div class="sup" style="background:var(--cafe);padding:12px 14px">Diagnóstico gratuito de 30 minutos.</div></div>
+        <figcaption class="mode-cap"><b>Modo Laranja</b><span class="strip"><i style="flex:60;background:var(--laranja)"></i><i style="flex:25;background:var(--areia)"></i><i style="flex:10;background:var(--cafe)"></i><i style="flex:5;background:var(--verde)"></i></span></figcaption></figure>
+      <figure><div class="mini grain" style="background:var(--areia);color:var(--carvao)"><div class="top" style="color:var(--laranja)"><span>WE MAP IT.</span><span class="pill" style="box-shadow:inset 0 0 0 1.5px var(--carvao)">NOVO</span></div><h4 style="color:var(--laranja)">Sem mapa,<br>todo caminho<br>parece certo.</h4><div class="sup" style="border-top:1.5px solid var(--carvao);padding-top:10px">Diagnóstico gratuito de 30 minutos.</div></div>
+        <figcaption class="mode-cap"><b>Modo Areia</b><span class="strip"><i style="flex:60;background:var(--areia)"></i><i style="flex:20;background:var(--laranja)"></i><i style="flex:15;background:var(--carvao);box-shadow:inset 0 0 0 1px var(--areia-30)"></i><i style="flex:5;background:var(--verde)"></i></span></figcaption></figure>
+      <figure><div class="mini grain" style="background:radial-gradient(70% 60% at 60% 85%,rgba(250,65,0,.7),transparent 70%),linear-gradient(180deg,var(--carvao),var(--cafe));color:var(--areia)"><div class="top" style="color:var(--laranja)"><span>WE MAP IT.</span><span class="pill" style="box-shadow:0 0 16px rgba(129,240,2,.7)">NOVO</span></div><h4>Sem mapa,<br>todo caminho<br>parece <span style="color:var(--laranja)">certo.</span></h4><div class="sup" style="border-top:1px solid var(--areia-30);padding-top:10px">Diagnóstico gratuito de 30 minutos.</div></div>
+        <figcaption class="mode-cap"><b>Modo Noite</b><span class="strip"><i style="flex:30;background:var(--carvao);box-shadow:inset 0 0 0 1px var(--areia-30)"></i><i style="flex:25;background:var(--cafe)"></i><i style="flex:20;background:var(--areia)"></i><i style="flex:18;background:var(--laranja)"></i><i style="flex:7;background:var(--verde)"></i></span></figcaption></figure>
+    </div>
+
+    <div class="gap-xl"></div>
+    <div class="group-h"><h3>Tipografia dedicada</h3></div>
+    <div class="typo">
+      <div class="type-spec">
+        <div class="ts"><span class="s1">AaÇã</span><small>Inter Tight 800</small></div>
+        <div class="ts"><span class="s2">No&nbsp;<span class="w l">Perfil</span></span><small>Pinyon Script</small></div>
+        <div class="ts"><span class="s3">@wemapit · Nº 014</span><small>Inter 500</small></div>
+        <div class="ts"><span class="s4">que se escolhe</span><small>Playfair Display</small></div>
+      </div>
+      <div class="demos">
+        <div class="demo grain" style="background:linear-gradient(180deg,var(--carvao),var(--cafe));color:var(--areia)"><div class="k2"><span>@wemapit</span><span>Nº 014</span></div><h4><span class="w l solo">Conteúdo</span>Precisa<br>de mapa</h4></div>
+        <div class="demo grain" style="background:var(--areia);color:var(--carvao)"><div class="k2"><span>@wemapit</span><span>Nº 030</span></div><h4><span class="w l">Perfil</span>&nbsp;que<br>não vende</h4></div>
+      </div>
+    </div>
+
+    <div class="gap-xl"></div>
+    <div class="group-h"><h3>Logotipo</h3></div>
+    <div class="logos" style="margin-top:0" aria-label="Logotipo nas cores oficiais">
+      <div class="lg" style="background:var(--areia);color:var(--laranja)">we map it.</div>
+      <div class="lg" style="background:var(--laranja);color:var(--areia)">we map it.</div>
+      <div class="lg" style="background:var(--carvao);color:var(--areia);box-shadow:inset 0 0 0 1px var(--areia-14)">we map it.</div>
+      <div class="lg" style="background:var(--cafe);color:var(--laranja)">we map it.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 01 LANDING · Modo Noite ================= -->
+<section id="landing" class="band b-noite">
+  <div class="wrap">
+    <div class="sh-meta meta"><span>Nº 02</span><span>Landing page</span></div>
+    <div class="sh">
+      <h2 class="display sh-title">Página que leva ao&nbsp;<span class="w v">Destino</span></h2>
+      <p class="pitch">Landing pages com um único pedido, do topo ao rodapé. Desenhadas para o celular, feitas para virar contato.</p>
+    </div>
+
+    <div class="lp-show">
+      <div>
+        <div class="browser">
+          <div class="browser-bar"><i></i><i></i><i></i><span class="url">we map it · diagnóstico gratuito</span></div>
+          <div class="frame frame--scroll" data-w="1280" style="--ar:1280/800" tabindex="0" aria-label="Landing page versão desktop, role para ver">
+            <div class="sizer"><div class="stage slp">
+              <div class="lp">
+                <div class="lp-nav"><span class="wmk">we map it.</span><nav><span>Método</span><span>Serviços</span><span>Cases</span><span>Contato</span></nav><span class="btn btn-l btn-sm">Quero meu mapa</span></div>
+                <div class="lp-hero grain">
+                  <div class="glow" style="width:1000px;height:1000px;right:-260px;top:200px;background:radial-gradient(circle,rgba(250,65,0,.8),rgba(250,65,0,0) 62%)"></div>
+                  <div class="glow" style="width:620px;height:620px;left:-240px;top:-200px;background:radial-gradient(circle,rgba(250,65,0,.35),rgba(250,65,0,0) 62%)"></div>
+                  <div class="glow" style="width:220px;height:220px;left:180px;top:560px;background:radial-gradient(circle,rgba(129,240,2,.75),rgba(129,240,2,0) 65%)"></div>
+                  <span class="k" style="left:64px;bottom:56px">@wemapit</span><span class="k" style="right:64px;bottom:56px">Nº 001 · Diagnóstico</span>
+                  <div class="ctr" style="top:250px">
+                    <div class="tb"><h4 class="t">Seu marketing<br>tem&nbsp;<span class="w v">Destino</span>?</h4></div>
+                    <div class="ap" style="margin-top:40px">Diagnóstico gratuito de 30 minutos</div>
+                    <div style="display:flex;gap:16px;margin-top:40px"><span class="btn btn-l">Quero meu mapa →</span><span class="btn btn-o">Ver o método</span></div>
+                  </div>
+                </div>
+                <div class="lp-sec" style="background:var(--cafe)">
+                  <div class="lp-eyebrow">Serviços</div>
+                  <h3>Três frentes, um mapa só.</h3>
+                  <div class="lp-cards">
+                    <div class="glass"><span class="lp-eyebrow">Nº 01</span><b>Gestão</b><span style="color:var(--areia-80)">Rede social com linha editorial e leitura semanal.</span><ul><li>Calendário mensal</li><li>Roteiros e carrosséis</li><li>Relatório toda segunda</li></ul></div>
+                    <div class="glass"><span class="lp-eyebrow">Nº 02</span><b>Tráfego</b><span style="color:var(--areia-80)">Anúncio com público, oferta e página definidos.</span><ul><li>Meta Ads e Google Ads</li><li>Testes A/B de criativo</li><li>Painel de custo por lead</li></ul></div>
+                    <div class="glass"><span class="lp-eyebrow">Nº 03</span><b>Branding</b><span style="color:var(--areia-80)">Posicionamento e identidade que viram escolha.</span><ul><li>Plataforma de marca</li><li>Identidade visual</li><li>Tom de voz e manual</li></ul></div>
+                  </div>
+                </div>
+                <div class="lp-sec" style="background:var(--areia);color:var(--carvao)">
+                  <div class="lp-eyebrow">Método Mapa</div>
+                  <h3 style="color:var(--laranja)">Quatro paradas até o resultado.</h3>
+                  <div class="lp-steps">
+                    <div><span class="lp-eyebrow">Semana 1</span><b>Diagnóstico</b><p>A gente audita perfil, concorrência e números para achar o gargalo.</p></div>
+                    <div><span class="lp-eyebrow">Semana 2</span><b>Rota</b><p>Público, oferta e mensagem escritos numa página que todo mundo segue.</p></div>
+                    <div><span class="lp-eyebrow">Semanas 3 e 4</span><b>Execução</b><p>Conteúdo, criativos, landing e tráfego rodando no mesmo plano.</p></div>
+                    <div><span class="lp-eyebrow">Todo mês</span><b>Leitura</b><p>Relatório com o que funcionou e a próxima rota.</p></div>
+                  </div>
+                </div>
+                <div class="lp-sec grain" style="background:linear-gradient(160deg,var(--laranja) 0%,var(--laranja) 55%,var(--cafe) 140%);display:grid;grid-template-columns:1.1fr 1fr;gap:56px;align-items:center">
+                  <div><div class="lp-eyebrow">Estudo de caso · clínica de estética</div><div style="font:900 230px/.8 var(--f-title);letter-spacing:-.05em">+38%</div><div style="font:800 54px/.95 var(--f-title);text-transform:uppercase;letter-spacing:-.02em;margin-top:22px">de leads em<br>90 dias</div></div>
+                  <div style="background:var(--cafe);padding:40px;font-size:20px;line-height:1.6">A clínica crescia por indicação e parou de crescer. Reposicionamos a oferta, trocamos o público dos anúncios e criamos uma landing com um único pedido. Mesmo orçamento, mais agenda cheia.<div style="margin-top:28px"><span class="btn btn-l btn-sm">Ver o case completo</span></div></div>
+                </div>
+                <div class="lp-sec grain" style="background:linear-gradient(180deg,var(--carvao),var(--cafe));text-align:center;padding:150px 64px 64px;overflow:hidden">
+                  <div class="glow" style="width:900px;height:900px;left:190px;top:120px;background:radial-gradient(circle,rgba(250,65,0,.6),rgba(250,65,0,0) 62%)"></div>
+                  <div class="tb" style="position:relative"><h4 class="t">Qual é o<br>seu&nbsp;<span class="w l">Mapa</span>?</h4></div>
+                  <p style="max-width:560px;margin:36px auto 40px;color:var(--areia-80);position:relative">Em 30 minutos você sai com o gargalo do seu marketing apontado e três ações para a próxima semana.</p>
+                  <span class="btn btn-l" style="position:relative">Agendar diagnóstico →</span>
+                  <div style="display:flex;justify-content:space-between;margin-top:140px;padding-top:20px;border-top:1px solid var(--areia-14);font:500 14px/1 var(--f-text);letter-spacing:.06em;text-transform:uppercase;color:var(--areia-60);position:relative"><span class="wmk" style="font-size:24px;text-transform:none;letter-spacing:-.045em;color:var(--areia)">we map it.</span><span>@wemapit</span><span>Criação e marketing · 2026</span></div>
+                </div>
+              </div>
+            </div></div>
+          </div>
+        </div>
+        <div class="hint"><span>Desktop · 1280 px</span><span>Role dentro da tela ↓</span></div>
+      </div>
+
+      <div>
+        <div class="phone">
+          <div class="frame frame--scroll" data-w="390" style="--ar:390/800" tabindex="0" aria-label="Landing page versão celular, role para ver">
+            <div class="sizer"><div class="stage smob">
+              <div class="lp" style="width:390px;font-size:15px">
+                <div class="lp-hero grain" style="height:760px">
+                  <div class="glow" style="width:560px;height:560px;left:-40px;top:360px;background:radial-gradient(circle,rgba(250,65,0,.85),rgba(250,65,0,0) 62%)"></div>
+                  <div class="glow" style="width:140px;height:140px;right:10px;top:120px;background:radial-gradient(circle,rgba(129,240,2,.7),rgba(129,240,2,0) 65%)"></div>
+                  <div style="position:absolute;top:0;left:0;right:0;height:72px;display:flex;align-items:center;justify-content:space-between;padding:0 22px;z-index:6"><span class="wmk" style="font-size:22px">we map it.</span><span style="display:grid;gap:5px"><i style="display:block;width:24px;height:2px;background:var(--areia)"></i><i style="display:block;width:24px;height:2px;background:var(--areia)"></i></span></div>
+                  <div style="position:absolute;left:22px;right:22px;top:210px;z-index:4">
+                    <div class="tb"><h4 class="t" style="font-size:52px;white-space:nowrap">Seu<br>marketing<br>tem&nbsp;<span class="w v" style="--wk:1.4em">Destino</span>?</h4></div>
+                    <div class="ap" style="align-items:flex-start;font-size:12.5px;margin-top:26px;gap:12px">Diagnóstico gratuito de 30 min</div>
+                    <span class="btn btn-l" style="margin-top:28px;width:100%;justify-content:center;font-size:15px;padding:18px">Quero meu mapa →</span>
+                  </div>
+                  <span class="k" style="left:22px;bottom:26px;font-size:11px">@wemapit</span><span class="k" style="right:22px;bottom:26px;font-size:11px">Nº 001</span>
+                </div>
+                <div style="background:var(--cafe);padding:44px 22px;display:grid;gap:14px">
+                  <div class="lp-eyebrow" style="font-size:11px;margin:0">Serviços</div>
+                  <div style="font:800 32px/.95 var(--f-title);letter-spacing:-.03em;margin-bottom:8px">Três frentes,<br>um mapa só.</div>
+                  <div class="glass" style="padding:20px;border-radius:18px"><b style="font:800 20px/1 var(--f-title);text-transform:uppercase">Gestão</b><p style="margin:8px 0 0;color:var(--areia-80)">Rede com linha editorial e leitura semanal.</p></div>
+                  <div class="glass" style="padding:20px;border-radius:18px"><b style="font:800 20px/1 var(--f-title);text-transform:uppercase">Tráfego</b><p style="margin:8px 0 0;color:var(--areia-80)">Público, oferta e página antes da verba.</p></div>
+                  <div class="glass" style="padding:20px;border-radius:18px"><b style="font:800 20px/1 var(--f-title);text-transform:uppercase">Branding</b><p style="margin:8px 0 0;color:var(--areia-80)">Posicionamento que vira escolha.</p></div>
+                </div>
+                <div class="grain" style="background:linear-gradient(160deg,var(--laranja),var(--laranja) 55%,var(--cafe) 150%);padding:44px 22px">
+                  <div style="font:900 110px/.8 var(--f-title);letter-spacing:-.05em">+38%</div>
+                  <div style="font:800 26px/.95 var(--f-title);text-transform:uppercase;margin:14px 0 22px">de leads em 90 dias</div>
+                  <div style="background:var(--cafe);padding:20px;line-height:1.55">Mesma verba. Mudou o público, a oferta e a página.</div>
+                </div>
+                <div style="background:var(--carvao);padding:56px 22px 36px;text-align:center">
+                  <div style="font:800 52px/.85 var(--f-title);letter-spacing:-.03em;text-transform:uppercase">Qual é o<br>seu mapa?</div>
+                  <span class="btn btn-l" style="margin-top:28px;width:100%;justify-content:center;font-size:15px;padding:18px">Agendar diagnóstico</span>
+                  <div style="margin-top:44px;font:500 11px/1 var(--f-text);letter-spacing:.06em;text-transform:uppercase;color:var(--areia-60)">@wemapit · 2026</div>
+                </div>
+              </div>
+            </div></div>
+          </div>
+        </div>
+        <div class="hint"><span>Mobile · 390 px</span><span>Role ↓</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 02 CRIATIVOS · Modo Areia ================= -->
+<section id="criativos" class="band b-areia">
+  <div class="wrap">
+    <div class="sh-meta meta"><span>Nº 03</span><span>Criativos</span></div>
+    <div class="sh">
+      <h2 class="display sh-title">Peças que param o&nbsp;<span class="w l">Scroll</span></h2>
+      <p class="pitch">Feed, stories, reels, anúncio e carrossel com a mesma assinatura. Seu perfil vira uma coleção que o cliente reconhece de longe.</p>
+    </div>
+
+    <div class="group-h"><h3>Feed</h3></div>
+    <div class="feed">
+      <figure class="piece">
+        <div class="frame" data-w="1080" style="--ar:1080/1350"><div class="stage s45">
+          <div class="pc grain" style="background:var(--carvao);color:var(--areia)">
+            <div class="glow" style="width:1100px;height:1100px;right:-420px;bottom:-480px;background:radial-gradient(circle,rgba(250,65,0,.9),rgba(250,65,0,0) 62%)"></div>
+            <div class="glow" style="width:700px;height:700px;left:-340px;top:-320px;background:radial-gradient(circle,rgba(250,65,0,.45),rgba(250,65,0,0) 62%)"></div>
+            <div class="glow" style="width:240px;height:240px;right:40px;top:20px;background:radial-gradient(circle,rgba(129,240,2,.85),rgba(129,240,2,0) 62%)"></div>
+            <span class="k tl">@wemapit</span><span class="k tr">Nº 014</span><span class="k bl">Posicionamento</span><span class="k br">Salva pra depois</span>
+            <div class="ctr" style="top:330px">
+              <div class="tb"><p class="t"><span class="w l solo">Conteúdo</span>Precisa<br>de mapa</p></div>
+              <div class="ap" style="margin-top:46px">O mapa que organiza o que você posta</div>
+            </div>
+          </div>
+        </div></div>
+      </figure>
+
+      <figure class="piece">
+        <div class="frame" data-w="1080" style="--ar:1080/1350"><div class="stage s45">
+          <div class="pc grain" style="background:radial-gradient(90% 80% at 50% 42%,transparent 55%,rgba(250,65,0,.16) 100%),var(--areia);color:var(--carvao)">
+            <span class="k tl">@wemapit</span><span class="k tr">Nº 032</span><span class="k bl">Posicionamento</span><span class="k br">Desliza →</span>
+            <div class="ctr" style="top:400px">
+              <div class="tb"><p class="t">5 travas<br>no&nbsp;<span class="w l">Perfil</span></p></div>
+              <div class="ap" style="margin-top:46px">O que impede seu Instagram de vender</div>
+            </div>
+            <div style="position:absolute;left:64px;right:64px;bottom:130px;border-top:1.5px solid var(--carvao-40);padding-top:18px;display:grid;grid-template-columns:repeat(5,1fr)">
+              <div><div style="font:500 18px/1 var(--f-text);opacity:.6">01</div><div style="font:800 30px/1.2 var(--f-title)">BIO</div></div>
+              <div><div style="font:500 18px/1 var(--f-text);opacity:.6">02</div><div style="font:800 30px/1.2 var(--f-title)">CONTEÚDO</div></div>
+              <div><div style="font:500 18px/1 var(--f-text);opacity:.6">03</div><div style="font:800 30px/1.2 var(--f-title)">OFERTA</div></div>
+              <div><div style="font:500 18px/1 var(--f-text);opacity:.6">04</div><div style="font:800 30px/1.2 var(--f-title)">PROVA</div></div>
+              <div><div style="font:500 18px/1 var(--f-text);opacity:.6">05</div><div style="font:800 30px/1.2 var(--f-title)">CTA</div></div>
+            </div>
+          </div>
+        </div></div>
+      </figure>
+
+      <figure class="piece">
+        <div class="frame" data-w="1080" style="--ar:1080/1350"><div class="stage s45">
+          <div class="pc grain" style="background:radial-gradient(80% 70% at 30% 40%,transparent 50%,rgba(250,65,0,.14) 100%),var(--areia);color:var(--carvao)">
+            <span class="k tl">@wemapit</span><span class="k tr">Nº 033</span><span class="k bl">Branding</span><span class="k br">Salva pra depois</span>
+            <div style="position:absolute;left:64px;right:64px;top:420px">
+              <p style="font:400 124px/.95 var(--f-serif);letter-spacing:-.02em;margin:0;position:relative;z-index:2"><span class="w l solo" style="--wk:1.7em">Marca</span>que se escolhe</p>
+              <div class="ap left" style="margin-top:50px">Posicionamento que cobra o que vale</div>
+            </div>
+          </div>
+        </div></div>
+      </figure>
+
+      <figure class="piece">
+        <div class="frame" data-w="1080" style="--ar:1080/1350"><div class="stage s45">
+          <div class="pc grain" style="background:linear-gradient(180deg,var(--cafe),var(--carvao));color:var(--areia)">
+            <div class="glow" style="width:1000px;height:1000px;right:-360px;bottom:-460px;background:radial-gradient(circle,rgba(250,65,0,.85),rgba(250,65,0,0) 62%)"></div>
+            <div class="glow" style="width:220px;height:220px;right:50px;top:30px;background:radial-gradient(circle,rgba(129,240,2,.8),rgba(129,240,2,0) 62%)"></div>
+            <span class="k tl">@wemapit</span><span class="k tr">Nº 035</span>
+            <div class="ctr" style="top:420px">
+              <div class="tb"><p class="t" style="font-size:140px;text-shadow:0 0 14px rgba(250,65,0,.85),0 0 40px rgba(250,65,0,.5),-5px 0 rgba(250,65,0,.75),5px 0 rgba(255,240,207,.35)">Seu&nbsp;<span class="w v">Mapa</span><br>está claro?</p></div>
+              <div class="ap" style="margin-top:46px">Diagnóstico gratuito até sexta</div>
+            </div>
+            <div style="position:absolute;left:64px;right:64px;bottom:64px;display:flex;justify-content:space-between;font:500 19px/1.5 var(--f-text);letter-spacing:.04em;text-transform:uppercase;z-index:5">
+              <div style="opacity:.75">Evento<br>Prazo<br>Vagas</div><div style="text-align:right">Diagnóstico<br>Sexta, 13/11<br>12</div>
+            </div>
+          </div>
+        </div></div>
+      </figure>
+    </div>
+
+    <div class="gap-xl"></div>
+    <div class="group-h"><h3>Stories e reels</h3></div>
+    <div class="verts">
+      <figure class="piece">
+        <div class="frame" data-w="1080" style="--ar:1080/1920"><div class="stage s916">
+          <div class="pc grain" style="background:linear-gradient(160deg,var(--laranja) 0%,var(--laranja) 38%,var(--cafe) 105%);color:var(--areia)">
+            <div style="position:absolute;left:110px;right:110px;top:260px;height:780px;border-radius:30px;overflow:hidden;background:radial-gradient(40% 30% at 52% 38%,var(--areia) 0,rgba(250,65,0,.85) 45%,transparent 80%),radial-gradient(34% 22% at 50% 90%,var(--cafe) 0 70%,transparent 72%),linear-gradient(180deg,#d9581f,var(--cafe))"></div>
+            <p class="t" style="position:absolute;left:96px;right:96px;top:1140px;font-size:124px;line-height:.86">3 erros de<br>quem cresce<br>no boca<br>a boca</p>
+            <div style="position:absolute;left:96px;top:1640px;background:var(--carvao);color:var(--verde);font:800 44px/1 var(--f-title);letter-spacing:.04em;padding:20px 28px">EP. 04</div>
+          </div>
+        </div></div>
+      </figure>
+
+      <figure class="piece">
+        <div class="frame" data-w="1080" style="--ar:1080/1920"><div class="stage s916">
+          <div class="pc grain" style="background:linear-gradient(180deg,var(--carvao),var(--cafe));color:var(--areia)">
+            <div class="glow" style="width:1300px;height:1300px;left:-110px;top:420px;background:radial-gradient(circle,rgba(250,65,0,.8),rgba(250,65,0,0) 60%)"></div>
+            <div style="position:absolute;top:56px;left:56px;right:56px;display:grid;grid-template-columns:repeat(4,1fr);gap:10px">
+              <i style="height:8px;border-radius:4px;background:var(--areia-80)"></i><i style="height:8px;border-radius:4px;background:linear-gradient(90deg,var(--verde) 55%,var(--areia-30) 55%)"></i><i style="height:8px;border-radius:4px;background:var(--areia-30)"></i><i style="height:8px;border-radius:4px;background:var(--areia-30)"></i>
+            </div>
+            <div style="position:absolute;top:100px;left:56px;display:flex;align-items:center;gap:18px;font:600 30px/1 var(--f-text)"><i style="width:70px;height:70px;border-radius:50%;background:var(--laranja);display:grid;place-items:center;font:800 34px/1 var(--f-title);font-style:normal">w</i>wemapit <span style="color:var(--areia-60);font-weight:500">2 h</span></div>
+            <p style="position:absolute;left:80px;right:80px;top:420px;font:800 124px/.9 var(--f-title);letter-spacing:-.03em;margin:0;text-align:center">Bastidor de<br>uma reunião<br>de mapa</p>
+            <div class="glass" style="position:absolute;left:80px;right:80px;top:880px;font:500 38px/1.42 var(--f-text);padding:46px;border-radius:32px">Hoje abrimos o mapa de uma clínica de estética. O gargalo não era o Instagram. Era a oferta.</div>
+            <div class="btn btn-l" style="position:absolute;left:50%;bottom:140px;transform:translateX(-50%);font-size:40px;padding:36px 76px">Quero o meu</div>
+          </div>
+        </div></div>
+      </figure>
+
+      <figure class="piece">
+        <div class="frame" data-w="1080" style="--ar:1080/1920"><div class="stage s916">
+          <div class="pc grain" style="background:var(--laranja);color:var(--areia)">
+            <div style="position:absolute;top:80px;left:72px;right:72px;display:flex;justify-content:space-between;font:800 30px/1 var(--f-title);letter-spacing:.18em">
+              <span>GESTÃO</span><span>TRÁFEGO</span><span>BRANDING</span></div>
+            <div style="position:absolute;top:136px;left:72px;right:72px;height:10px;background:var(--areia)"></div>
+            <p style="position:absolute;left:40px;right:40px;top:260px;margin:0;text-align:center;font:900 300px/.82 var(--f-title);letter-spacing:-.05em;background:radial-gradient(40% 28% at 50% 36%,var(--areia) 0,#ff9a5c 30%,transparent 62%),radial-gradient(60% 30% at 40% 80%,#2a2019 0,transparent 70%),linear-gradient(180deg,#e7a47a 0%,#b04a1e 45%,var(--cafe) 100%);-webkit-background-clip:text;background-clip:text;color:transparent">QUAL<br>É O<br>SEU<br>MAPA</p>
+            <div style="position:absolute;right:-130px;top:1300px;width:260px;height:260px;border-radius:50%;background:var(--verde)"></div>
+            <p style="position:absolute;left:72px;right:72px;bottom:250px;text-align:center;font:italic 800 38px/1.2 var(--f-title);letter-spacing:.06em;margin:0">“CRESCER NO BOCA A BOCA TEM TETO”</p>
+            <p style="position:absolute;left:0;right:0;bottom:120px;text-align:center;font:800 60px/1 var(--f-title);letter-spacing:-.045em;margin:0">we map it.</p>
+          </div>
+        </div></div>
+      </figure>
+    </div>
+
+    <div class="gap-xl"></div>
+    <div class="group-h"><h3>Anúncio</h3></div>
+    <div class="ad-row">
+      <figure class="piece">
+        <div class="frame" data-w="1200" style="--ar:1200/628"><div class="stage sad">
+          <div class="pc grain" style="background:var(--areia);color:var(--carvao)">
+            <span class="k" style="top:44px;left:48px;font-size:15px">@wemapit · Patrocinado</span>
+            <div style="position:absolute;left:48px;top:110px;width:600px">
+              <p style="font:800 76px/.86 var(--f-title);letter-spacing:-.03em;text-transform:uppercase;color:var(--laranja);margin:0">Sem mapa, todo caminho parece certo.</p>
+              <p style="font:500 22px/1.45 var(--f-text);margin:28px 0 30px;max-width:500px">Diagnóstico gratuito de 30 minutos para negócios que cresceram no boca a boca e travaram.</p>
+              <span class="btn btn-l" style="font-size:18px;padding:20px 30px">Agendar diagnóstico →</span>
+            </div>
+            <div style="position:absolute;right:28px;top:28px;bottom:28px;width:480px;background:radial-gradient(34% 26% at 52% 36%,var(--areia) 0,rgba(250,65,0,.9) 48%,transparent 80%),radial-gradient(44% 30% at 50% 96%,var(--cafe) 0 70%,transparent 72%),linear-gradient(180deg,#d65a20,var(--cafe))"></div>
+            <div class="sticker" style="position:absolute;right:400px;top:340px;width:190px;height:190px;font-size:32px;border-width:6px;transform:rotate(-10deg)">+38%<br>leads</div>
+          </div>
+        </div></div>
+      </figure>
+    </div>
+
+    <div class="gap-xl"></div>
+    <div class="group-h"><h3>Carrossel</h3>
+      <div class="car-ctrl"><button type="button" id="car-prev" aria-label="Slide anterior">←</button><output id="car-count" aria-live="polite">01 / 07</output><button type="button" id="car-next" aria-label="Próximo slide">→</button></div>
+    </div>
+    <div class="track" id="car-track" tabindex="0" aria-label="Carrossel educativo, 7 slides">
+      <!-- 1 capa -->
+      <figure><div class="frame" data-w="1080" style="--ar:1080/1350"><div class="stage s45">
+        <div class="pc grain" style="background:radial-gradient(90% 80% at 50% 42%,transparent 55%,rgba(250,65,0,.15) 100%),var(--areia);color:var(--carvao)">
+          <span class="k tl">@wemapit</span><span class="k tr">Nº 027</span><span class="k bl">Tráfego</span>
+          <div class="ctr" style="top:300px">
+            <div class="tb"><p class="t" style="font-size:140px"><span class="w l solo" style="--wk:1.4em">Impulsionar</span>não é<br>estratégia</p></div>
+            <div class="ap" style="margin-top:46px">O que o botão azul não faz por você</div>
+          </div>
+          <div style="position:absolute;right:64px;bottom:52px;background:var(--verde);border:3px solid var(--carvao);font:800 26px/1 var(--f-title);letter-spacing:.06em;padding:16px 22px">ARRASTA →</div>
+        </div></div></div></figure>
+      <!-- 2 -->
+      <figure><div class="frame" data-w="1080" style="--ar:1080/1350"><div class="stage s45">
+        <div class="pc grain" style="background:var(--areia);color:var(--carvao)">
+          <span class="k tl" style="color:var(--laranja);font-weight:600">02/07</span><span class="k tr">@wemapit</span><span class="k bl">Tráfego</span><span class="k br">Arrasta →</span>
+          <div style="position:absolute;left:96px;right:96px;top:300px">
+            <p style="font:800 128px/.9 var(--f-title);letter-spacing:-.03em;color:var(--laranja);margin:0">Impulsionar post não é estratégia.</p>
+            <p style="font:500 44px/1.4 var(--f-text);margin:56px 0 0;max-width:820px">Sem público definido, o botão azul só compra alcance. Ele não compra cliente.</p>
+          </div>
+        </div></div></div></figure>
+      <!-- 3 -->
+      <figure><div class="frame" data-w="1080" style="--ar:1080/1350"><div class="stage s45">
+        <div class="pc grain" style="background:var(--areia);color:var(--carvao)">
+          <span class="k tl" style="color:var(--laranja);font-weight:600">03/07</span><span class="k tr">@wemapit</span><span class="k bl">Tráfego</span><span class="k br">Arrasta →</span>
+          <div style="position:absolute;left:96px;right:96px;top:200px">
+            <p style="font:800 120px/.9 var(--f-title);letter-spacing:-.03em;color:var(--laranja);margin:0">Alcance não<br>é público.</p>
+            <div id="dots" style="display:grid;grid-template-columns:repeat(20,1fr);gap:14px;margin:60px 0 50px"></div>
+            <p style="font:500 40px/1.4 var(--f-text);margin:0;max-width:840px">Mil pessoas erradas custam o mesmo que mil certas. Só as laranjas compram.</p>
+          </div>
+        </div></div></div></figure>
+      <!-- 4 -->
+      <figure><div class="frame" data-w="1080" style="--ar:1080/1350"><div class="stage s45">
+        <div class="pc grain" style="background:var(--areia);color:var(--carvao)">
+          <span class="k tl" style="color:var(--laranja);font-weight:600">04/07</span><span class="k tr">@wemapit</span><span class="k bl">Tráfego</span><span class="k br">Arrasta →</span>
+          <div style="position:absolute;left:96px;right:96px;top:200px">
+            <p style="font:800 104px/.92 var(--f-title);letter-spacing:-.03em;color:var(--laranja);margin:0 0 60px">O que se define antes do primeiro real</p>
+            <div style="display:grid;font:700 50px/1 var(--f-title)">
+              <div style="display:flex;gap:40px;padding:26px 0;border-top:2px solid var(--carvao)"><span style="font:500 28px/1.6 var(--f-text);opacity:.6">01</span>Público</div>
+              <div style="display:flex;gap:40px;padding:26px 0;border-top:2px solid var(--carvao)"><span style="font:500 28px/1.6 var(--f-text);opacity:.6">02</span>Oferta</div>
+              <div style="display:flex;gap:40px;padding:26px 0;border-top:2px solid var(--carvao)"><span style="font:500 28px/1.6 var(--f-text);opacity:.6">03</span>Página de destino</div>
+              <div style="display:flex;gap:40px;padding:26px 0;border-top:2px solid var(--carvao)"><span style="font:500 28px/1.6 var(--f-text);opacity:.6">04</span>Evento de conversão</div>
+              <div style="display:flex;gap:40px;padding:26px 0;border-top:2px solid var(--carvao);border-bottom:2px solid var(--carvao)"><span style="font:500 28px/1.6 var(--f-text);opacity:.6">05</span>Orçamento por etapa</div>
+            </div>
+          </div>
+        </div></div></div></figure>
+      <!-- 5 laranja -->
+      <figure><div class="frame" data-w="1080" style="--ar:1080/1350"><div class="stage s45">
+        <div class="pc grain" style="background:linear-gradient(160deg,var(--laranja) 0%,var(--laranja) 55%,var(--cafe) 140%);color:var(--areia)">
+          <span class="k tl" style="font-weight:700">05/07</span><span class="k tr" style="font-weight:700">@wemapit</span>
+          <div style="position:absolute;left:80px;top:260px;font:900 380px/.8 var(--f-title);letter-spacing:-.06em">−55%</div>
+          <div style="position:absolute;left:92px;top:600px;font:800 76px/.92 var(--f-title);text-transform:uppercase;letter-spacing:-.02em">no custo<br>por lead</div>
+          <div style="position:absolute;left:92px;right:92px;bottom:120px;background:var(--cafe);padding:40px 44px;font:500 38px/1.45 var(--f-text)">Mesma verba, mesmo produto. Mudou o público, a oferta e a página.</div>
+        </div></div></div></figure>
+      <!-- 6 -->
+      <figure><div class="frame" data-w="1080" style="--ar:1080/1350"><div class="stage s45">
+        <div class="pc grain" style="background:var(--areia);color:var(--carvao)">
+          <span class="k tl" style="color:var(--laranja);font-weight:600">06/07</span><span class="k tr">@wemapit</span><span class="k bl">Tráfego</span><span class="k br">Arrasta →</span>
+          <div style="position:absolute;left:96px;right:96px;top:200px">
+            <p style="font:800 110px/.92 var(--f-title);letter-spacing:-.03em;color:var(--laranja);margin:0 0 70px">O mapa em três paradas</p>
+            <div style="position:relative;padding-left:100px;display:grid;gap:64px">
+              <div style="position:absolute;left:26px;top:20px;bottom:40px;border-left:4px dashed var(--carvao-40)"></div>
+              <div style="position:relative"><i style="position:absolute;left:-94px;top:6px;width:44px;height:44px;border-radius:50%;background:var(--areia);border:4px solid var(--carvao)"></i><b style="font:800 60px/1 var(--f-title);text-transform:uppercase">Atrair</b><p style="font:500 34px/1.4 var(--f-text);margin:12px 0 0">Conteúdo que fala com quem tem o problema.</p></div>
+              <div style="position:relative"><i style="position:absolute;left:-94px;top:6px;width:44px;height:44px;border-radius:50%;background:var(--areia);border:4px solid var(--carvao)"></i><b style="font:800 60px/1 var(--f-title);text-transform:uppercase">Convencer</b><p style="font:500 34px/1.4 var(--f-text);margin:12px 0 0">Prova, bastidor e oferta clara.</p></div>
+              <div style="position:relative"><i style="position:absolute;left:-98px;top:2px;width:52px;height:52px;border-radius:50%;background:var(--laranja)"></i><b style="font:800 60px/1 var(--f-title);text-transform:uppercase;color:var(--laranja)">Converter</b><p style="font:500 34px/1.4 var(--f-text);margin:12px 0 0">Anúncio para quem já conhece você.</p></div>
+            </div>
+          </div>
+        </div></div></div></figure>
+      <!-- 7 fechamento -->
+      <figure><div class="frame" data-w="1080" style="--ar:1080/1350"><div class="stage s45">
+        <div class="pc grain" style="background:radial-gradient(90% 80% at 50% 42%,transparent 55%,rgba(250,65,0,.15) 100%),var(--areia);color:var(--carvao)">
+          <span class="k tl">@wemapit</span><span class="k tr">07/07</span><span class="k bl">Tráfego</span><span class="k br">Salva pra depois</span>
+          <div class="ctr" style="top:440px">
+            <div class="tb"><p class="t">Qual é o<br>seu&nbsp;<span class="w l">Mapa</span>?</p></div>
+            <div class="ap" style="margin-top:46px">Comenta MAPA e recebe o diagnóstico</div>
+          </div>
+        </div></div></div></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 03 MOTION · Carvão ================= -->
+<section id="motion" class="band b-carvao">
+  <div class="wrap">
+    <div class="sh-meta meta"><span>Nº 04</span><span>Motion effects</span></div>
+    <div class="sh">
+      <h2 class="display sh-title"><span class="w l">Marca</span>&nbsp;que se mexe</h2>
+      <p class="pitch">Vinhetas, lettering e transições que dão ritmo à marca. Prontos para abrir reels, destacar números e virar anúncio.</p>
+    </div>
+    <div class="motion-grid">
+      <div class="mt" data-loop="4200">
+        <div class="frame run" data-w="1080" style="--ar:1080/1350"><div class="stage s45"><div class="pc m1 grain">
+          <svg viewBox="0 0 1080 1350" aria-hidden="true"><path d="M60 1290 C 220 1240, 180 1060, 360 1040 S 560 1160, 660 1000 S 760 820, 927 752"/></svg>
+          <div class="wmk"><span style="animation-delay:.9s">w</span><span style="animation-delay:.95s">e</span> <span style="animation-delay:1.0s">m</span><span style="animation-delay:1.05s">a</span><span style="animation-delay:1.1s">p</span> <span style="animation-delay:1.15s">i</span><span style="animation-delay:1.2s">t</span></div>
+          <i class="ring"></i><i class="pin"></i>
+          <div class="tag">Criação e marketing</div>
+        </div></div></div>
+        <div class="mt-cap"><button class="replay" type="button">Repetir</button></div>
+      </div>
+
+      <div class="mt" data-loop="5200">
+        <div class="frame run" data-w="1080" style="--ar:1080/1350"><div class="stage s45"><div class="pc m2 grain">
+          <span class="k tl">@wemapit</span><span class="k tr">Nº 019</span>
+          <div class="words"><span style="animation-delay:.1s">Sem</span><span class="o v" style="animation-delay:.55s">Mapa,</span><span style="animation-delay:1.0s">todo</span><span style="animation-delay:1.45s">caminho</span><span style="animation-delay:1.9s">parece</span><span style="animation-delay:2.35s">certo.</span></div>
+          <span class="k bl">Lettering</span><span class="k br">Reels</span>
+        </div></div></div>
+        <div class="mt-cap"><button class="replay" type="button">Repetir</button></div>
+      </div>
+
+      <div class="mt" data-loop="4000">
+        <div class="frame run" data-w="1080" style="--ar:1080/1350"><div class="stage s45"><div class="pc m3 grain">
+          <span class="k tl">@wemapit</span><span class="k tr">Nº 032</span><span class="k bl">Posicionamento</span><span class="k br">Desliza</span>
+          <div class="ctr" style="top:470px">
+            <div class="tb"><p class="t">5 travas<br>no&nbsp;<span class="w l">Perfil</span></p></div>
+            <div class="ap" style="margin-top:46px">O que impede seu Instagram de vender</div>
+          </div>
+        </div></div></div>
+        <div class="mt-cap"><button class="replay" type="button">Repetir</button></div>
+      </div>
+
+      <div class="mt" data-loop="4000">
+        <div class="frame run" data-w="1080" style="--ar:1080/1350"><div class="stage s45"><div class="pc m4 grain">
+          <span class="k tl" style="font-weight:700">@wemapit</span>
+          <div class="sticker">90<br>dias</div>
+          <div class="num" aria-label="+38%"></div>
+          <div class="lbl">de leads</div>
+          <div class="tj">Clínica de estética. Mesmo orçamento, nova oferta e nova página.</div>
+        </div></div></div>
+        <div class="mt-cap"><button class="replay" type="button">Repetir</button></div>
+      </div>
+
+      <div class="mt" data-loop="5400">
+        <div class="frame run" data-w="1080" style="--ar:1080/1350"><div class="stage s45"><div class="pc m5 grain">
+          <div class="glow g1"></div><div class="glow g2"></div>
+          <div class="prog"><i></i><i><b></b></i><i></i><i></i></div>
+          <div class="who"><i>w</i>wemapit <span>agora</span></div>
+          <div class="ttl">Bastidor de uma reunião de mapa</div>
+          <div class="glass">O gargalo não era o Instagram. Era a oferta.</div>
+          <div class="btn btn-l">Quero o meu</div>
+        </div></div></div>
+        <div class="mt-cap"><button class="replay" type="button">Repetir</button></div>
+      </div>
+
+      <div class="mt" data-loop="3600">
+        <div class="frame run" data-w="1080" style="--ar:1080/1350"><div class="stage s45"><div class="pc m6 grain">
+          <div class="scA"><span class="mk">Modo Laranja · antes</span><p class="t">Antes<br>do mapa</p><small>Post sem rumo · verba solta</small></div>
+          <div class="scB"><span class="mk">Modo Areia · depois</span><p class="t">Depois<br>do mapa</p><small>Rota, público, oferta</small></div>
+          <div class="stripe"></div>
+        </div></div></div>
+        <div class="mt-cap"><button class="replay" type="button">Repetir</button></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 04 EDIÇÃO · Café ================= -->
+<section id="edicao" class="band b-cafe">
+  <div class="wrap">
+    <div class="sh-meta meta"><span>Nº 05</span><span>Edição de vídeo</span></div>
+    <div class="sh">
+      <h2 class="display sh-title">Edição com&nbsp;<span class="w v">Direção</span></h2>
+      <p class="pitch">Cortes secos, legenda palavra a palavra e cor quente. Vídeo de fala que segura a atenção até o fim.</p>
+    </div>
+
+    <div class="ed">
+      <div class="reel">
+        <div class="frame" data-w="1080" style="--ar:1080/1920"><div class="stage s916">
+          <div class="pc rl grain" id="reel">
+            <div class="scene sc-a" data-sc="a"></div><div class="scene sc-b" data-sc="b" style="opacity:0"></div><div class="scene sc-c" data-sc="c" style="opacity:0"></div>
+            <div class="ep">EP. 04</div>
+            <div class="lt" id="reel-lt">3 erros</div>
+            <div class="capt" id="reel-cap"></div>
+          </div>
+        </div></div>
+      </div>
+      <div class="panel">
+        <div class="panel-h">
+          <span class="meta">EP04 · 3 erros de quem cresce no boca a boca · v3</span>
+          <div style="display:flex;align-items:center;gap:14px"><span class="tc" id="tc">00:00:00:00 <span>/ 00:00:18:00</span></span><button class="play" id="play" type="button" aria-pressed="true">❚❚ Pausar</button></div>
+        </div>
+        <div class="tl-scroll">
+          <div class="tl" id="tl">
+            <div class="tl-lab" id="tl-lab"><div class="tl-ruler-lab">Faixa</div></div>
+            <div class="tl-lanes" id="tl-lanes"><div class="tl-ruler" id="tl-ruler"></div><div class="playhead" id="ph"></div></div>
+          </div>
+        </div>
+        <div class="ed-specs">
+          <div><span>Duração</span><b>0:18</b></div>
+          <div><span>Cortes</span><b>4 na câmera</b></div>
+          <div><span>Legenda</span><b>Palavra a palavra</b></div>
+          <div><span>Grade</span><b>Quente · grão 10%</b></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub-h"><h3>Color grade We Map It</h3><span class="meta">Arraste para comparar</span></div>
+    <div class="grade-wrap">
+      <div>
+        <div class="ba" style="--cut:50%">
+          <div class="layer cold"><img src="/portfolio/assets/grade-antes.webp" width="1376" height="768" alt="Retrato antes do grade: fundo cinza, luz branca de estúdio e sombra neutra"></div>
+          <div class="layer warm"><img src="/portfolio/assets/grade-depois.webp" width="1376" height="768" alt="O mesmo retrato com o grade We Map It: fundo escuro, contraluz laranja, pele quente e um ponto de luz verde"></div>
+          <span class="lab" style="left:12px">Antes · luz fria</span>
+          <span class="lab" style="right:12px">Grade We Map It</span>
+          <i class="div"></i>
+          <label class="sr" for="grade-range">Comparar antes e depois do grade</label>
+          <input type="range" id="grade-range" min="0" max="100" value="50">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 05 ESTRATÉGIA · Modo Areia ================= -->
+<section id="estrategia" class="band b-areia">
+  <div class="wrap">
+    <div class="sh-meta meta"><span>Nº 06</span><span>Planners de estratégia</span></div>
+    <div class="sh">
+      <h2 class="display sh-title">O&nbsp;<span class="w l">Mapa</span> antes da peça</h2>
+      <p class="pitch">Rota de campanha, calendário editorial e cronograma com metas. Você sabe o que vai ao ar, quando e por quê.</p>
+    </div>
+
+    <article class="planner">
+      <div class="pl-h"><div><span class="meta">Planner 01 · Mapa de campanha</span><h3>Rota do diagnóstico ao resultado</h3></div><span class="meta">Cliente: clínica de estética · 30 dias</span></div>
+      <div class="pl-b">
+        <div class="route">
+          <svg viewBox="0 0 1000 80" preserveAspectRatio="none" aria-hidden="true"><path d="M100 41 C 160 0, 240 0, 300 41 S 440 82, 500 41 S 640 0, 700 41 S 840 82, 900 41"/></svg>
+          <div class="stop"><span class="pin">1</span><span class="when">Semana 1</span><b>Diagnóstico</b><p>Entender onde a marca está hoje.</p><dl><div><dt>Entregas</dt><dd>Auditoria de perfil, concorrentes, números</dd></div><div><dt>Leitura</dt><dd>Linha de base de leads e custo</dd></div></dl></div>
+          <div class="stop"><span class="pin">2</span><span class="when">Semana 2</span><b>Posicionamento</b><p>Escolher público, oferta e promessa.</p><dl><div><dt>Entregas</dt><dd>Plataforma de mensagem em 1 página</dd></div><div><dt>Leitura</dt><dd>Aprovação do cliente</dd></div></dl></div>
+          <div class="stop"><span class="pin">3</span><span class="when">Semanas 2 a 4</span><b>Conteúdo</b><p>Aquecer quem ainda não conhece.</p><dl><div><dt>Entregas</dt><dd>12 posts, 4 reels, stories diários</dd></div><div><dt>Leitura</dt><dd>Alcance qualificado e salvamentos</dd></div></dl></div>
+          <div class="stop"><span class="pin">4</span><span class="when">Semanas 3 e 4</span><b>Tráfego</b><p>Levar quem já conhece para a landing.</p><dl><div><dt>Entregas</dt><dd>Landing, 6 criativos, teste A/B</dd></div><div><dt>Leitura</dt><dd>Custo por lead e taxa de conversão</dd></div></dl></div>
+          <div class="stop dest"><span class="pin">★</span><span class="when">Fim do mês</span><b>Leitura</b><p>Medir e desenhar a próxima rota.</p><dl><div><dt>Entregas</dt><dd>Relatório e plano do mês 2</dd></div><div><dt>Leitura</dt><dd>Leads, agendamentos, custo por cliente</dd></div></dl></div>
+        </div>
+      </div>
+    </article>
+
+    <article class="planner">
+      <div class="pl-h"><div><span class="meta">Planner 02 · Calendário editorial</span><h3>Semana 46 · 9 a 15 de novembro</h3></div><span class="meta">Instagram · TikTok · LinkedIn · Meta Ads</span></div>
+      <div class="cal-scroll">
+        <div class="cal">
+          <div class="day"><div class="day-h"><span>Seg</span><b>09</b></div><div class="day-c">
+            <div class="post"><div class="fmt"><span>Reels</span><span>IG</span></div><p>3 erros de quem cresce no boca a boca</p><div class="row"><span class="chip i-hero">Hero</span><span class="st pub">Publicado</span></div></div>
+            <div class="post"><div class="fmt"><span>Stories</span><span>IG</span></div><p>Enquete: de onde vêm seus clientes?</p><div class="row"><span class="chip i-help">Help</span><span class="st pub">Publicado</span></div></div>
+          </div></div>
+          <div class="day"><div class="day-h"><span>Ter</span><b>10</b></div><div class="day-c">
+            <div class="post"><div class="fmt"><span>Carrossel</span><span>IG</span></div><p>Impulsionar post não é estratégia</p><div class="row"><span class="chip i-help">Help</span><span class="st pub">Publicado</span></div></div>
+          </div></div>
+          <div class="day today"><div class="day-h"><span>Qua · hoje</span><b>11</b></div><div class="day-c">
+            <div class="post"><div class="fmt"><span>Anúncio</span><span>Meta</span></div><p>Diagnóstico gratuito · público frio</p><div class="row"><span class="chip i-hero">Hero</span><span class="st agd">Agendado</span></div></div>
+            <div class="post"><div class="fmt"><span>Stories</span><span>IG</span></div><p>Bastidor de uma reunião de mapa</p><div class="row"><span class="chip i-hub">Hub</span><span class="st edi">Em edição</span></div></div>
+          </div></div>
+          <div class="day"><div class="day-h"><span>Qui</span><b>12</b></div><div class="day-c">
+            <div class="post"><div class="fmt"><span>Reels</span><span>IG + TikTok</span></div><p>O que o gestor define antes do primeiro real</p><div class="row"><span class="chip i-help">Help</span><span class="st edi">Em edição</span></div></div>
+          </div></div>
+          <div class="day"><div class="day-h"><span>Sex</span><b>13</b></div><div class="day-c">
+            <div class="post"><div class="fmt"><span>Carrossel</span><span>LinkedIn</span></div><p>Case: +38% de leads em 90 dias</p><div class="row"><span class="chip i-hero">Hero</span><span class="st">Roteiro</span></div></div>
+            <div class="post"><div class="fmt"><span>Feed</span><span>IG</span></div><p>Você sabe pra onde vai? Último dia</p><div class="row"><span class="chip i-hero">Hero</span><span class="st agd">Agendado</span></div></div>
+          </div></div>
+          <div class="day"><div class="day-h"><span>Sáb</span><b>14</b></div><div class="day-c">
+            <div class="post"><div class="fmt"><span>Stories</span><span>IG</span></div><p>Caixinha de perguntas sobre tráfego</p><div class="row"><span class="chip i-hub">Hub</span><span class="st">Roteiro</span></div></div>
+          </div></div>
+          <div class="day"><div class="day-h"><span>Dom</span><b>15</b></div><div class="day-c">
+            <div class="post"><div class="fmt"><span>Stories</span><span>IG</span></div><p>Descanso de feed, só bastidor leve</p><div class="row"><span class="chip i-hub">Hub</span><span class="st">Roteiro</span></div></div>
+          </div></div>
+        </div>
+      </div>
+      <div class="legend"><span class="chip i-hero">Hero</span>Alcance e campanha <span class="chip i-hub">Hub</span>Relacionamento e série <span class="chip i-help">Help</span>Conteúdo que resolve dúvida <span style="flex-basis:100%;height:0" aria-hidden="true"></span><span class="st pub">Publicado</span><span class="st agd">Agendado</span><span class="st edi">Em edição</span><span class="st">Roteiro</span></div>
+    </article>
+
+    <article class="planner">
+      <div class="pl-h"><div><span class="meta">Planner 03 · Cronograma</span><h3>Campanha de 30 dias</h3></div><span class="meta">16 nov a 13 dez 2026</span></div>
+      <div class="pl-b gantt-scroll">
+        <div class="gantt" id="gantt">
+          <div class="g-corner"></div>
+          <div class="g-wk"><b>Semana 1</b>16 a 22 nov</div><div class="g-wk"><b>Semana 2</b>23 a 29 nov</div><div class="g-wk"><b>Semana 3</b>30 nov a 6 dez</div><div class="g-wk"><b>Semana 4</b>7 a 13 dez</div>
+        </div>
+      </div>
+      <div class="kpis">
+        <div class="kpi"><span>Investimento</span><b>R$ 6.000</b><em>R$ 200 por dia</em></div>
+        <div class="kpi"><span>Custo por lead</span><b>R$ 12</b><em>meta máxima</em></div>
+        <div class="kpi"><span>Leads</span><b>500</b><em>no mês</em></div>
+        <div class="kpi"><span>Conversão da landing</span><b>18%</b><em>visita para lead</em></div>
+        <div class="kpi"><span>Agendamentos</span><b>60</b><em>12% dos leads</em></div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ================= FECHAMENTO · Modo Laranja ================= -->
+<footer class="band b-laranja grain">
+  <div class="wrap">
+    <div class="corners meta"><span>@wemapit</span><span>Nº 001 · Fim</span></div>
+    <h2 class="close-title"><span class="ln">Qual é o</span><span class="ln">seu&nbsp;<span class="w v">Mapa</span>?</span></h2>
+    <div class="hero-low">
+      <span class="apoio">Diagnóstico gratuito de 30 minutos</span>
+      <div class="close-cta">
+        <div class="tarja"><p>Em 30 minutos você sai com o gargalo do seu marketing apontado.</p></div>
+        <div class="close-actions">
+          <a class="cta-btn" href="https://wa.me/5521995917448?text=Ol%C3%A1%2C%20vim%20pelo%20portf%C3%B3lio%20da%20We%20Map%20It%20e%20quero%20conversar%20sobre%20o%20meu%20neg%C3%B3cio." target="_blank" rel="noopener">Entrar em contato<span class="sr"> (abre o WhatsApp em nova aba)</span></a>
+          <a class="cta-link" href="/">Voltar para o site</a>
+        </div>
+      </div>
+    </div>
+    <div class="foot meta"><span>We Map It · Criação e marketing</span><span>Portfólio 2026</span><span>Salva pra depois</span></div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  /* ---- escalador ---- */
+  function fit(f){
+    var w=+f.dataset.w; if(!w||!f.clientWidth) return;
+    var s=f.clientWidth/w; f.style.setProperty('--s',s);
+    var sz=f.querySelector(':scope > .sizer');
+    if(sz){ sz.style.height=(sz.firstElementChild.offsetHeight*s)+'px'; }
+  }
+  var frames=[].slice.call(document.querySelectorAll('.frame[data-w]'));
+  frames.forEach(fit);
+  if('ResizeObserver' in window){ var ro=new ResizeObserver(function(es){es.forEach(function(e){fit(e.target)})}); frames.forEach(function(f){ro.observe(f)}); }
+  else window.addEventListener('resize',function(){frames.forEach(fit)});
+  if(document.fonts&&document.fonts.ready) document.fonts.ready.then(function(){frames.forEach(fit)});
+
+  /* ---- slide 3: pontos ---- */
+  var dots=document.getElementById('dots');
+  if(dots){ var hot=[13,27,44,58,71,86]; for(var i=0;i<100;i++){var d=document.createElement('i');d.style.cssText='display:block;aspect-ratio:1;border-radius:50%;background:'+(hot.indexOf(i)>-1?'var(--laranja)':'rgba(52,51,48,.18)');dots.appendChild(d);} }
+
+  /* ---- carrossel ---- */
+  var track=document.getElementById('car-track'), out=document.getElementById('car-count');
+  function step(){var it=track.children[0];return it.getBoundingClientRect().width+16}
+  function upd(){var n=Math.round(track.scrollLeft/step())+1; if(track.scrollLeft+track.clientWidth>=track.scrollWidth-4) n=track.children.length; n=Math.min(n,track.children.length); out.textContent=String(n).padStart(2,'0')+' / '+String(track.children.length).padStart(2,'0')}
+  document.getElementById('car-prev').addEventListener('click',function(){track.scrollBy({left:-step(),behavior:'smooth'})});
+  document.getElementById('car-next').addEventListener('click',function(){track.scrollBy({left:step(),behavior:'smooth'})});
+  track.addEventListener('scroll',function(){window.requestAnimationFrame(upd)},{passive:true});
+
+  /* ---- motion: replay e loop ---- */
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function restart(f){f.classList.remove('run');void f.offsetWidth;f.classList.add('run')}
+  [].forEach.call(document.querySelectorAll('.mt'),function(t){
+    var f=t.querySelector('.frame'), ms=+t.dataset.loop||4000, timer=null;
+    t.querySelector('.replay').addEventListener('click',function(){restart(f)});
+    if(reduce) return;
+    function start(){if(!timer){restart(f);timer=setInterval(function(){restart(f)},ms)}}
+    function stop(){clearInterval(timer);timer=null}
+    if('IntersectionObserver' in window){ new IntersectionObserver(function(es){es.forEach(function(e){e.isIntersecting?start():stop()})},{threshold:.3}).observe(t) } else start();
+  });
+
+  /* ---- edição: timeline ---- */
+  var DUR=18;
+  var words=[[0,'Crescer'],[0.4,'no'],[0.6,'boca'],[0.9,'a'],[1.05,'boca'],[1.5,'tem',1],[1.8,'teto.',1],
+    [3.2,'Primeiro'],[3.7,'erro:'],[4.3,'achar'],[4.7,'que'],[4.9,'indicação',1],[5.6,'é'],[5.8,'estratégia.'],
+    [7.0,'Segundo:'],[7.8,'postar'],[8.3,'sem'],[8.6,'saber'],[9.0,'pra',1],[9.2,'quem.',1],
+    [11.0,'Terceiro:'],[11.8,'medir'],[12.2,'curtida'],[12.8,'em'],[13.0,'vez'],[13.3,'de'],[13.5,'cliente.',1],
+    [14.6,'Bora'],[15.0,'desenhar'],[15.5,'o'],[15.7,'seu'],[16.0,'mapa?',1]];
+  var lines=[[0,6],[7,13],[14,19],[20,26],[27,31]], lineEnd=[2.8,6.8,10.6,14.4,17.6];
+  var V2=[[0,2.6,'3 erros'],[3.2,1.4,'01'],[7.0,1.4,'02'],[11.0,1.4,'03'],[14.6,3.4,'we map it.']];
+  var V1=[[0,3.2,'A-cam 01','cam','a'],[3.2,3.6,'B-roll mesa','cam2','b'],[6.8,4.2,'A-cam 02','cam','a'],[11,3.6,'Tela do celular','cam2','c'],[14.6,3.4,'A-cam 03','cam','a']];
+  var tracks=[
+    ['V2','Lettering',V2.map(function(c){return [c[0],c[1],c[2],'let']})],
+    ['V1','Câmera',V1],
+    ['LEG','Legenda',lines.map(function(l,i){return [words[l[0]][0],lineEnd[i]-words[l[0]][0],'','leg']})],
+    ['A1','Voz',[[0,16.6,'','vo']]],
+    ['A2','Trilha',[[0,18,'Trilha · 92 bpm','mus']]],
+    ['SFX','Efeitos',[[3.05,.3,'','sfx'],[6.65,.3,'','sfx'],[10.85,.3,'','sfx'],[14.45,.3,'','sfx']]]
+  ];
+  var lab=document.getElementById('tl-lab'), lanes=document.getElementById('tl-lanes'), ruler=document.getElementById('tl-ruler'), ph=document.getElementById('ph');
+  for(var s=0;s<=DUR;s+=.5){var tk=document.createElement('i');tk.style.left=(s/DUR*100)+'%';if(s%2===0){tk.className='mj';if(s<DUR){var em=document.createElement('em');em.textContent='0:'+String(s).padStart(2,'0');em.style.left=(s/DUR*100)+'%';ruler.appendChild(em)}}ruler.appendChild(tk)}
+  tracks.forEach(function(t){
+    var l=document.createElement('div');l.innerHTML=t[0]+'<span>'+t[1]+'</span>';lab.appendChild(l);
+    var ln=document.createElement('div');ln.className='lane';
+    t[2].forEach(function(c){var el=document.createElement('div');el.className='clip '+c[3];el.style.left=(c[0]/DUR*100)+'%';el.style.width=(c[1]/DUR*100)+'%';el.textContent=c[2];
+      if(c[3]==='vo'){for(var b=0;b<110;b++){var x=b/110*16.6,on=words.some(function(w){return x>=w[0]&&x<w[0]+.38}),h=on?(35+Math.abs(Math.sin(b*1.7))*60):(6+Math.abs(Math.sin(b*.9))*10);var bar=document.createElement('i');bar.style.height=h+'%';el.appendChild(bar)}}
+      ln.appendChild(el)});
+    lanes.insertBefore(ln,ph);
+  });
+
+  var reel=document.getElementById('reel'), cap=document.getElementById('reel-cap'), lt=document.getElementById('reel-lt'), tc=document.getElementById('tc'), btn=document.getElementById('play');
+  var scenes={};[].forEach.call(reel.querySelectorAll('.scene'),function(e){scenes[e.dataset.sc]=e});
+  var t=0, playing=!reduce, last=null, curLine=-1, curSc='a', curLt=null, inView=false;
+  function fmt(x){var sec=Math.floor(x),fr=Math.floor((x-sec)*30);return '00:00:'+String(sec).padStart(2,'0')+':'+String(fr).padStart(2,'0')}
+  function render(){
+    ph.style.left=(t/DUR*100)+'%';
+    tc.firstChild.nodeValue=fmt(t)+' ';
+    var v1=V1.filter(function(c){return t>=c[0]&&t<c[0]+c[1]})[0]||V1[0];
+    if(v1[4]!==curSc){scenes[curSc].style.opacity=0;scenes[v1[4]].style.opacity=1;curSc=v1[4]}
+    var v2=V2.filter(function(c){return t>=c[0]&&t<c[0]+c[1]})[0];
+    var lk=v2?v2[2]:'';
+    if(lk!==curLt){curLt=lk; lt.className='lt'+(lk==='3 erros'?' big':''); lt.innerHTML=lk==='we map it.'?'<span class="wmk">we map it.</span>':lk; lt.style.display=lk?'block':'none'}
+    var li=-1;lines.forEach(function(l,i){if(t>=words[l[0]][0]&&t<lineEnd[i])li=i});
+    if(li!==curLine){curLine=li;cap.innerHTML=li<0?'':words.slice(lines[li][0],lines[li][1]+1).map(function(w){return w[2]?'<b data-t="'+w[0]+'">'+w[1]+'</b>':'<span data-t="'+w[0]+'">'+w[1]+'</span>'}).join(' ')}
+    [].forEach.call(cap.children,function(c){c.style.opacity=t>=+c.dataset.t?1:0});
+  }
+  function loop(ts){
+    if(playing&&inView){ if(last!==null){t+=(ts-last)/1000;if(t>=DUR)t=0} last=ts; render() } else last=null;
+    requestAnimationFrame(loop);
+  }
+  function setPlay(p){playing=p;btn.setAttribute('aria-pressed',p);btn.textContent=p?'❚❚ Pausar':'▶ Play'}
+  btn.addEventListener('click',function(){setPlay(!playing)});
+  lanes.addEventListener('click',function(e){var r=lanes.getBoundingClientRect();t=Math.max(0,Math.min(DUR-.01,(e.clientX-r.left)/r.width*DUR));render()});
+  if('IntersectionObserver' in window){new IntersectionObserver(function(es){inView=es[0].isIntersecting},{threshold:.15}).observe(document.getElementById('edicao'))} else inView=true;
+  setPlay(playing); t=reduce?1.9:0; render(); requestAnimationFrame(loop);
+
+  /* ---- grade antes/depois ---- */
+  var gr=document.getElementById('grade-range');
+  gr.addEventListener('input',function(){gr.parentNode.style.setProperty('--cut',gr.value+'%')});
+
+  /* ---- gantt ---- */
+  var g=document.getElementById('gantt');
+  var rows=[['Diagnóstico e auditoria','Equipe de estratégia',[[0,5,'c','Auditoria']]],
+    ['Posicionamento','Plataforma de mensagem',[[4,5,'c','Mensagem']],[[8,'ms']]],
+    ['Landing page','Texto, design e código',[[6,8,'l','Landing']],[[14,'ms']]],
+    ['Criativos','Feed, stories e anúncios',[[8,12,'o','6 anúncios + 12 posts']]],
+    ['Tráfego · teste','A/B de público e criativo',[[14,7,'c','Teste A/B']]],
+    ['Tráfego · escala','Verba nos vencedores',[[21,7,'l','Escala']]],
+    ['Leitura','Relatório e próxima rota',[[25,3,'o','Relatório']]]];
+  rows.forEach(function(r){
+    var n=document.createElement('div');n.className='g-name';n.innerHTML=r[0]+'<span>'+r[1]+'</span>';g.appendChild(n);
+    var ln=document.createElement('div');ln.className='g-lane';
+    r[2].forEach(function(b){var e=document.createElement('div');e.className='g-bar '+b[2];e.style.left=(b[0]/28*100)+'%';e.style.width=(b[1]/28*100)+'%';e.textContent=b[3];ln.appendChild(e)});
+    (r[3]||[]).forEach(function(m){var e=document.createElement('i');e.className='g-ms';e.style.left='calc('+(m[0]/28*100)+'% - 1px)';e.title='Marco';ln.appendChild(e)});
+    g.appendChild(ln);
+  });
+})();
+</script>
+</body>
+</html>
